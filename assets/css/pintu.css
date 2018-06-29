@@ -1,3 +1,7 @@
+body{
+    font-family: Lato;
+}
+
 /*Header*/
 .v-head-middle{
     margin-top: 26px;
@@ -46,7 +50,7 @@
 .list-tt .list-group-item span.badge{
     position: absolute;
     z-index: 1;
-    top: 33px;
+    top: 28px;
     left: 6px;
 }
 .trending-title{
@@ -58,7 +62,7 @@
 }
 
 .v-thumb{
-    height: 181.9px;
+    height: 160px;
 }
 .v-thumb:first-child{
     margin-bottom: 4px;
@@ -423,10 +427,10 @@ footer .socmed-ic{
     .v-thumb {
         height: auto;
     }
-    .v-thumb:first-child{
+    .v-thumb.first{
         padding-right: 5px;
     }
-    .v-thumb:last-child{
+    .v-thumb.last{
         padding-left: 5px;
     }
     .carousel-caption.mobile{
