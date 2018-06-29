@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Home - 9 Pintu</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link href="assets/css/components.css" rel="stylesheet">
+    <link href="assets/css/pintu.css" rel="stylesheet">
+    <link href="assets/css/sidenav.css" rel="stylesheet">
+
+    <link href="assets/css/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+
+    <link href="assets/fonts/fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--Side Navigation-->
+<div id="pintuSideNav" class="sidenav">
+    <div class="closebtn">
+        <a href="javascript:void(0)" onclick="closeNav()"><i class="far fa-times-circle"></i></a>
+    </div>
+    <div class="head-nav">
+        <a href="">Masuk/Daftar</a>
+    </div>
+    <div class="menu-item">
+        <a href="#" class="item">Beranda</a>
+        <a href="#" class="item">Media</a>
+        <a href="#" class="item">Berbagi Rezeki</a>
+        <a href="#" class="item">Travel Syariah</a>
+        <a href="#" class="item">Belanja</a>
+        <a href="#" class="item">Official Mitra</a>
+        <a href="#" class="item">Silaturahmi</a>
+    </div>
+</div>
+<!--End Side Navigation-->
+
+<div class="container-fluid no-padding">
+    <header class="mobile-header hidden-sm hidden-md hidden-lg">
+        <div class="container">
+            <div class="row">
+                <div class="top-group">
+                    <div class="col-xs-2 mt-5">
+                        <span class="btn-nav" onclick="openNav()"><i class="fas fa-bars fa-2x"></i></span>
+                    </div>
+                    <div class="col-xs-8">
+                        <img src="assets/images/dummy-logo.png" class="img-responsive logo-m">
+                    </div>
+                    <div class="col-xs-2 text-right sign-btn-group">
+                        <span class="btn-cart"><i class="fas fa-shopping-cart fa-2x"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-10 pb-10" id="rowSearch">
+                <div class="col-xs-12 v-head-middle">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Cari disini..." aria-describedby="basic-addon2">
+                        <span class="input-group-addon" id="basic-addon2"><i class="fas fa-search"></i> <span class="" id="icSearch">Cari</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="top-group">
+                    <div class="col-lg-2 col-md-2 col-sm-3 text-center">
+                        <img src="assets/images/dummy-logo.png" class="img-responsive">
+                    </div>
+                    <div class="col-sm-9 hidden-lg hidden-md text-right sign-btn-group">
+                        <div class="row">
+                            <div class="col-sm-8 text-right">
+                                <i class="fas fa-shopping-cart fa-2x"></i>
+                            </div>
+                            <div class="col-sm-2 pr-5">
+                                <button class="btn btn-default btn-block">Masuk</button>
+                            </div>
+                            <div class="col-sm-2 pl-5">
+                                <button class="btn btn-primary btn-block">Daftar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12 v-head-middle">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Cari disini..." aria-describedby="basic-addon2">
+                        <span class="input-group-addon" id="basic-addon2"><i class="fas fa-search"></i> Cari</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 hidden-sm text-right v-head-middle">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2">
+                            <i class="fas fa-shopping-cart fa-2x"></i>
+                        </div>
+                        <div class="col-lg-5 col-md-5 pr-5">
+                            <button class="btn btn-default btn-block">Masuk</button>
+                        </div>
+                        <div class="col-lg-5 col-md-5 pl-5">
+                            <button class="btn btn-primary btn-block">Daftar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="hidden-xs">
+        <div class="container">
+            <ul class="nav nav-justified">
+                <li class="active"><a href="#">Media</a></li>
+                <li><a href="#">Berbagi Rezeki</a></li>
+                <li><a href="#">Travel Syariah</a></li>
+                <li><a href="#">Belanja</a></li>
+                <li><a href="#">Official Mitra</a></li>
+                <li><a href="#">Silaturahmi</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-10 m-container pb-50">
+        <div class="row hidden-lg hidden-md trending-m mb-20">
+            <div class="col-sm-12 col-xs-12">
+                <div id="carousel-trending-topic" class="carousel slide" data-ride="carousel">
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="row tt-items">
+                                <div class="col-xs-2 m-left-pad text-right">
+                                    <span class="badge">1</span>
+                                </div>
+                                <div class="col-xs-4">
+                                    <img src="img/dummy-slide.jpg" alt="..." class="btn-block">
+                                </div>
+                                <div class="col-xs-6 title-tt">
+                                    <span>Sketsa di Bulan Ramadhan 2018 cbdfb chdfh hf dh dfgdh ncfbdhgbvhjfg</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row tt-items">
+                                <div class="col-xs-2 m-left-pad text-right">
+                                    <span class="badge">2</span>
+                                </div>
+                                <div class="col-xs-4">
+                                    <img src="img/dummy-slide.jpg" alt="..." class="btn-block">
+                                </div>
+                                <div class="col-xs-6 title-tt">
+                                    <span>Sketsa di Bulan Ramadhan 2018</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row tt-items">
+                                <div class="col-xs-2 m-left-pad text-right">
+                                    <span class="badge">3</span>
+                                </div>
+                                <div class="col-xs-4">
+                                    <img src="img/dummy-slide.jpg" alt="..." class="btn-block">
+                                </div>
+                                <div class="col-xs-6 title-tt">
+                                    <span>Sketsa di Bulan Ramadhan 2018</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-trending-topic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-trending-topic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 col-md-2 pr-0 hidden-sm hidden-xs">
+                <div class="panel panel-default panel-tt">
+                    <div class="panel-heading">
+                        <h6 class="text-center no-margin">Trending Topic</h6>
+                    </div>
+                    <div class="panel-body no-padding">
+                        <ul class="list-group list-tt no-margin">
+                            <li class="list-group-item">
+                                <span class="badge">1</span>
+                                <div class="row">
+                                    <div class="col-xs-4 pr-0">
+                                        <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                    </div>
+                                    <div class="col-xs-8 trending-title">Sketsa di Bulan Ramadhan 2018 cxvehrg v  cgdshg dhsg</div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">2</span>
+                                <div class="row">
+                                    <div class="col-xs-4 pr-0">
+                                        <img src="img/video-thumbnail.png" class="img-responsive">
+                                    </div>
+                                    <div class="col-xs-8 trending-title">Sketsa di Bulan Ramadhan 2018</div>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">3</span>
+                                <div class="row">
+                                    <div class="col-xs-4 pr-0">
+                                        <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                    </div>
+                                    <div class="col-xs-8 trending-title">Sketsa di Bulan Ramadhan 2018</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="panel-footer text-center">
+                        <a href="">Lihat Semua</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-7">
+                <div id="carousel-main-banner" class="carousel slide" data-ride="carousel">
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="img/dummy-slide.jpg" alt="..." class="btn-block">
+                            <div class="carousel-caption mobile">
+                                1. Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum
+                                <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/dummy-slide.jpg" alt="..." class="btn-block">
+                            <div class="carousel-caption mobile">
+                                2. Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum
+                                <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/dummy-slide.jpg" alt="..." class="btn-block">
+                            <div class="carousel-caption mobile">
+                                3. Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum
+                                <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-main-banner" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-main-banner" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-3 top-r-section">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-6 col-xs-6 v-thumb">
+                        <div class="v-thumb-item">
+                            <img src="img/video-thumbnail.png">
+                            <div class="thumb-caption">
+                                <p class="no-margin">Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum</p>
+                                <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-6 col-xs-6 v-thumb">
+                        <div class="v-thumb-item">
+                            <img src="img/video-thumbnail.png">
+                            <div class="thumb-caption">
+                                <p class="no-margin">Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum</p>
+                                <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h5>Produk Terlaris</h5>
+        <div class="row no-margin">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 main-product-home">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <img src="img/image-thumbnail.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-xs-8">
+                        <p>Minyak Kelapa Murni Harga Murah Kualitas Terjamin</p>
+                        <div class="row">
+                            <div class="col-xs-6"><strike>Rp 169.000</strike></div>
+                            <div class="col-xs-6 text-strong">Rp 150.000</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 no-padding">
+                <div class="row no-margin">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 list-item-home">
+                        <div class="row">
+                            <div class="col-xs-4 pr-0">
+                                <img src="img/image-thumbnail.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-xs-8">
+                                <p>Minyak Kelapa Murni Harga Murah Kualitas Terjamin</p>
+                                <div class="row">
+                                    <div class="col-xs-12"><strike>Rp 169.000</strike></div>
+                                    <div class="col-xs-12 text-strong">Rp 150.000</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 list-item-home">
+                        <div class="row">
+                            <div class="col-xs-4 pr-0">
+                                <img src="img/image-thumbnail.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-xs-8">
+                                <p>Minyak Kelapa Murni Harga Murah Kualitas Terjamin</p>
+                                <div class="row">
+                                    <div class="col-xs-12"><strike>Rp 169.000</strike></div>
+                                    <div class="col-xs-12 text-strong">Rp 150.000</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 list-item-home">
+                        <div class="row">
+                            <div class="col-xs-4 pr-0">
+                                <img src="img/image-thumbnail.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-xs-8">
+                                <p>Minyak Kelapa Murni Harga Murah Kualitas Terjamin</p>
+                                <div class="row">
+                                    <div class="col-xs-12"><strike>Rp 169.000</strike></div>
+                                    <div class="col-xs-12 text-strong">Rp 150.000</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 list-item-home">
+                        <div class="row">
+                            <div class="col-xs-4 pr-0">
+                                <img src="img/image-thumbnail.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-xs-8">
+                                <p>Minyak Kelapa Murni Harga Murah Kualitas Terjamin</p>
+                                <div class="row">
+                                    <div class="col-xs-12"><strike>Rp 169.000</strike></div>
+                                    <div class="col-xs-12 text-strong">Rp 150.000</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 list-item-home">
+                        <div class="row">
+                            <div class="col-xs-4 pr-0">
+                                <img src="img/image-thumbnail.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-xs-8">
+                                <p>Minyak Kelapa Murni Harga Murah Kualitas Terjamin</p>
+                                <div class="row">
+                                    <div class="col-xs-12"><strike>Rp 169.000</strike></div>
+                                    <div class="col-xs-12 text-strong">Rp 150.000</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 list-item-home">
+                        <div class="row">
+                            <div class="col-xs-4 pr-0">
+                                <img src="img/image-thumbnail.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-xs-8">
+                                <p>Minyak Kelapa Murni Harga Murah Kualitas Terjamin</p>
+                                <div class="row">
+                                    <div class="col-xs-12"><strike>Rp 169.000</strike></div>
+                                    <div class="col-xs-12 text-strong">Rp 150.000</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-30">
+            <div class="col-xs-12">
+                <h5 class="pull-left">Official Mitra</h5>
+                <a href="" class="pull-right mt-10 hidden-sm hidden-xs">Lihat Semua</a>
+            </div>
+        </div>
+        <div class="row no-margin">
+            <div class="item-partner">
+                <img src="img/image-thumbnail.jpg" class="img-responsive img-circle mb-20">
+                <button class="btn btn-default"><i class="fas fa-plus"></i> Ikuti</button>
+            </div>
+            <div class="item-partner">
+                <img src="img/image-thumbnail.jpg" class="img-responsive img-circle mb-20">
+                <button class="btn btn-default"><i class="fas fa-plus"></i> Ikuti</button>
+            </div>
+            <div class="item-partner">
+                <img src="img/image-thumbnail.jpg" class="img-responsive img-circle mb-20">
+                <button class="btn btn-default"><i class="fas fa-plus"></i> Ikuti</button>
+            </div>
+            <div class="item-partner">
+                <img src="img/image-thumbnail.jpg" class="img-responsive img-circle mb-20">
+                <button class="btn btn-default"><i class="fas fa-plus"></i> Ikuti</button>
+            </div>
+            <div class="item-partner">
+                <img src="img/image-thumbnail.jpg" class="img-responsive img-circle mb-20">
+                <button class="btn btn-default"><i class="fas fa-plus"></i> Ikuti</button>
+            </div>
+            <div class="item-partner">
+                <img src="img/image-thumbnail.jpg" class="img-responsive img-circle mb-20">
+                <button class="btn btn-default"><i class="fas fa-plus"></i> Ikuti</button>
+            </div>
+            <div class="item-partner">
+                <img src="img/image-thumbnail.jpg" class="img-responsive img-circle mb-20">
+                <button class="btn btn-default"><i class="fas fa-plus"></i> Ikuti</button>
+            </div>
+            <div class="item-partner-show hidden-lg hidden-md">
+                <button class="btn btn-default">Lihat Semua</button>
+            </div>
+        </div>
+
+        <div class="mt-30">
+            <h5>Produk Paling Heboh</h5>
+            <div class="scrolling-wrapper">
+                <div class="card">
+                    <div class="box-img">
+                        <img src="img/image-thumbnail.jpg" class="img-responsive">
+                    </div>
+                    <div class="item-info">
+                        <p class="title">Minyak Kelapa Murni Harga Murah Kualitas Terjamin</p>
+                        <div class="row price">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><strike>Rp 169.000</strike></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><span>Rp 150.000</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box-img">
+                        <img src="img/image-thumbnail.jpg" class="img-responsive">
+                    </div>
+                    <div class="item-info">
+                        <p class="title">Minyak Kelapa Murni Harga Murah Kualitas Terjamin</p>
+                        <div class="row price">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><strike>Rp 169.000</strike></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><span>Rp 150.000</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box-img">
+                        <img src="img/image-thumbnail.jpg" class="img-responsive">
+                    </div>
+                    <div class="item-info">
+                        <p class="title">Minyak Kelapa Murni Harga Murah Kualitas Terjamin</p>
+                        <div class="row price">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><strike>Rp 169.000</strike></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><span>Rp 150.000</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box-img">
+                        <img src="img/image-thumbnail.jpg" class="img-responsive">
+                    </div>
+                    <div class="item-info">
+                        <p class="title">Minyak Kelapa Murni Harga Murah Kualitas Terjamin</p>
+                        <div class="row price">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><strike>Rp 169.000</strike></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><span>Rp 150.000</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box-img">
+                        <img src="img/image-thumbnail.jpg" class="img-responsive">
+                    </div>
+                    <div class="item-info">
+                        <p class="title">Minyak Kelapa Murni Harga Murah Kualitas Terjamin</p>
+                        <div class="row price">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><strike>Rp 169.000</strike></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><span>Rp 150.000</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box-img">
+                        <img src="img/image-thumbnail.jpg" class="img-responsive">
+                    </div>
+                    <div class="item-info">
+                        <p class="title">Minyak Kelapa Murni Harga Murah Kualitas Terjamin</p>
+                        <div class="row price">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><strike>Rp 169.000</strike></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><span>Rp 150.000</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box-img">
+                        <img src="img/image-thumbnail.jpg" class="img-responsive">
+                    </div>
+                    <div class="item-info">
+                        <p class="title">Minyak Kelapa Murni Harga Murah Kualitas Terjamin</p>
+                        <div class="row price">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><strike>Rp 169.000</strike></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><span>Rp 150.000</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box-img">
+                        <img src="img/image-thumbnail.jpg" class="img-responsive">
+                    </div>
+                    <div class="item-info">
+                        <p class="title">Minyak Kelapa Murni Harga Murah Kualitas Terjamin</p>
+                        <div class="row price">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><strike>Rp 169.000</strike></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><span>Rp 150.000</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box-img">
+                        <img src="img/image-thumbnail.jpg" class="img-responsive">
+                    </div>
+                    <div class="item-info">
+                        <p class="title">Minyak Kelapa Murni Harga Murah Kualitas Terjamin</p>
+                        <div class="row price">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><strike>Rp 169.000</strike></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><span>Rp 150.000</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-30">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h5 class="pull-left">Donasi Kita</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                        <div id="carousel-donation" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-donation" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-donation" data-slide-to="1"></li>
+                                <li data-target="#carousel-donation" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner pb-40" role="listbox">
+                                <div class="item active">
+                                    <div class="card">
+                                        <div class="box-img">
+                                            <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                        </div>
+                                        <div class="box-info">
+                                            Desa Umbilharjo (Lampung), bisa membangun pompa air setelah mendapat donasi
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <div class="box-img">
+                                            <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                        </div>
+                                        <div class="box-info">
+                                            Desa Umbilharjo (Lampung), bisa membangun pompa air setelah mendapat donasi
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <div class="box-img">
+                                            <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                        </div>
+                                        <div class="box-info">
+                                            Desa Umbilharjo (Lampung), bisa membangun pompa air setelah mendapat donasi
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="card text-center p-15">
+                            <p class="text-strong">Berbagi Rezeki</p>
+                            <p>Mari sisihkan beberapa penghasilan Anda, untuk berbagi ke sesama sebagai:</p>
+                            <p class="text-strong">Donasi, Zakat, Infaq, Shadaqah, Wakaf</p>
+                            <button class="btn btn-primary">Mulai Berbagi</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h5 class="pull-left">Travel Syariah</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs pr-0">
+                        <img src="img/image-thumbnail.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pl-0 travel-form">
+                        <div class="card p-20">
+                            <p class="text-strong">Travel Syariah Tidak Lagi Mahal</p>
+                            <p>Segera ambil paket travel syariah Anda ke berbagai wilayah di dunia</p>
+                            <div class="form-group">
+                                <select class="form-control has-radius">
+                                    <option value="">Pilih Jenis Travel</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group date form_date" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+                                    <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-calendar"></span>
+                                    </span>
+                                    <input class="form-control" size="16" type="text" value="">
+                                </div>
+                                <input type="hidden" id="dtp_input2" value="" /><br/>
+                            </div>
+                            <div class="text-right">
+                                <button class="btn btn-primary">Cari</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-30">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h5 class="pull-left">Informasi Terbaru Dari Mitra</h5>
+                        <a href="" class="pull-right mt-10">Lihat Semua</a>
+                    </div>
+                </div>
+                <div class="row mb-10 article-hglg-m">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                        <img src="img/image-thumbnail.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                        <p class="article-hglg-title">Dapatkan DP 7% atau Diskon hingga 15% untuk Miliki Hunian Idamanmu</p>
+                        <p class="article-hglg">Jangan sia-siakan waktu untuk memiliki hunian impian Anda. Saat ini, Sinar Mas Land sedang menggelar program tengah tahun 'Easy Deal'. Anda bisa mendapatkan kemudahan cara bayar yang lebih beragam. Kapan lagi punya hunian dari Sinar Mas Land dengan penawaran semenarik ini? Sekarang waktunya mewujudkan mimpi untuk membeli hunian impian. Besarnya down payment (DP) yang harus Anda bayar akan disesuaikan dengan ketentuan Bank Indonesia.</p>
+                    </div>
+                </div>
+                <div class="row mb-10 article-hglg-m">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                        <img src="img/image-thumbnail.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                        <p class="article-hglg-title">SBY Bersama Dengan Calon Wakil Gubernur Jawa Timur Emil Elestianto Dardak Bersilaturahmi Bareng Paguyuban Pencak Silat Madiun</p>
+                        <p class="article-hglg">Madiun - Calon Wakil Gubernur Jawa Timur nomor urut 1, Emil Elestianto Dardak bersama Presiden RI ke-6, Susilo Bambang Yudhoyono beserta Ibu Ani Yudhoyono menghadiri acara bertajuk Silaturahmi Paguyuban Pencak Silat Kabupaten Madiun di Kecamatan Wungu, Kabupaten Madiun, Senin (18/06/2018) malam.</p>
+                    </div>
+                </div>
+                <div class="row mb-10 article-hglg-m">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                        <img src="img/image-thumbnail.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                        <p class="article-hglg-title">Mudik Lebaran, Toko Oleh-oleh Khas Cirebon Kebanjiran Pengunjung</p>
+                        <p class="article-hglg">Cirebon - Musim mudik lebaran menjadi berkah tersendiri bagi pengusaha oleh-oleh khas Cirebon. Tak sedikit pemudik yang balik ke Jakarta mampir ke toko oleh-oleh khas Cirebon. Mudah sekali untuk menemukan toko oleh-oleh di Cirebon. Di sepanjang Jalan Bypasa Ir Juanda Kecamatan Tengah Tani, Kabupaten Cirebon menjadi pusat wisata kuliner dan toko oleh-oleh khas Cirebon. Toko Cha'An salah satu toko oleh-oleh yang selalu dibanjiri pengunjung saat mudik lebaran. Anwar, pemilik toko mengaku penjualan oleh-oleh khas Cirebon, seperti kerupuk melarat, lambak, mares, dan lainnya mengalami peningkatan.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h5 class="pull-left">Topik Silaturohmi</h5>
+                    </div>
+                </div>
+                <div class="row mb-10">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+                        <img src="assets/images/love-icon.png" class="img-responsive">
+                    </div>
+                    <div class="col-lg-10 col-md-10 col-sm-9 col-xs-9">
+                        <p class="text-strong">Cinta beda Agama? Coba pertimbangkan dahulu apakah perlu di lanjutkan atau justrun udahan saja</p>
+                        <div class="row text-sm text-muted">
+                            <div class="col-xs-6">By: Armageddon</div>
+                            <div class="col-xs-6 text-right"><i class="far fa-clock"></i> 30/12/2018 <i class="far fa-comment-alt ml-10"></i> 127</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-10">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+                        <img src="assets/images/health-icon.png" class="img-responsive">
+                    </div>
+                    <div class="col-lg-10 col-md-10 col-sm-9 col-xs-9">
+                        <p class="text-strong">Ingin memiliki tubuh ideal? Yuk diet dengan tips-tips berikut</p>
+                        <div class="row text-sm text-muted">
+                            <div class="col-xs-6">By: Galgadot</div>
+                            <div class="col-xs-6 text-right"><i class="far fa-clock"></i> 30/12/2018 <i class="far fa-comment-alt ml-10"></i> 127</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-10">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+                        <img src="assets/images/education-icon.png" class="img-responsive">
+                    </div>
+                    <div class="col-lg-10 col-md-10 col-sm-9 col-xs-9">
+                        <p class="text-strong">Ceritakan pengalaman pendidikan S2 kamu selama di luar negeri?</p>
+                        <div class="row text-sm text-muted">
+                            <div class="col-xs-6">By: Dominic</div>
+                            <div class="col-xs-6 text-right"><i class="far fa-clock"></i> 30/12/2018 <i class="far fa-comment-alt ml-10"></i> 127</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-10">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+                        <img src="assets/images/world-icon.png" class="img-responsive">
+                    </div>
+                    <div class="col-lg-10 col-md-10 col-sm-9 col-xs-9">
+                        <p class="text-strong">Irak Klaim Bunuh Wakil Menteri Perang ISIS dalam Serangan Udara</p>
+                        <div class="row text-sm text-muted">
+                            <div class="col-xs-6">By: Toretto</div>
+                            <div class="col-xs-6 text-right"><i class="far fa-clock"></i> 30/12/2018 <i class="far fa-comment-alt ml-10"></i> 127</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-10">
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+                        <img src="assets/images/hobby-icon.png" class="img-responsive">
+                    </div>
+                    <div class="col-lg-10 col-md-10 col-sm-9 col-xs-9">
+                        <p class="text-strong">17 Resep Mudah untuk Kamu yang Baru Belajar Masak</p>
+                        <div class="row text-sm text-muted">
+                            <div class="col-xs-6">By: John Doe</div>
+                            <div class="col-xs-6 text-right"><i class="far fa-clock"></i> 30/12/2018 <i class="far fa-comment-alt ml-10"></i> 127</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row mt-30">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <div class="row hidden-lg hidden-md hidden-sm mb-10">
+                        <div class="col-xs-12">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="index.html">
+                                        <img src="assets/images/dummy-logo.png" class="w-100">
+                                    </a>
+                                </div>
+                                <div class="media-body media-middle">
+                                    <p class="mb-0 text-sm"><span class="text-muted">Layanan Pelanggan</span> <span class="text-strong"><i class="fas fa-phone-volume mr-5"></i> 1500-999</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row sitemap">
+                        <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs text-center">
+                            <img src="assets/images/dummy-logo.png" class="img-responsive">
+                            <p class="mb-0 text-sm text-muted">Layanan Pelanggan</p>
+                            <p class="text-strong"><i class="fas fa-phone-volume mr-5"></i> 1500-999</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <ul class="list-group">
+                                <li class="list-group-item text-strong">TENTANG 9PINTU</li>
+                                <li class="list-group-item">Apa itu 9pintu?</li>
+                                <li class="list-group-item">Testimonial Mitra</li>
+                                <li class="list-group-item">Program Affiliasi</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <ul class="list-group">
+                                <li class="list-group-item text-strong">BANTUAN</li>
+                                <li class="list-group-item">Hubungi Kami</li>
+                                <li class="list-group-item">Cara Pembelian</li>
+                                <li class="list-group-item">Cara Pembayaran</li>
+                                <li class="list-group-item">FAQ</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <ul class="list-group">
+                                <li class="list-group-item text-strong">PRODUK</li>
+                                <li class="list-group-item">Berbagi Rezeki</li>
+                                <li class="list-group-item">Travel Syariah</li>
+                                <li class="list-group-item">Belanja</li>
+                                <li class="list-group-item">Official Store</li>
+                                <li class="list-group-item">Silaturohmi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <p class="text-strong">SUBSCRIBE</p>
+                    <div class="input-group mb-15">
+                        <input type="text" class="form-control" placeholder="Masukkan email Anda" aria-describedby="basic-addon2">
+                        <span class="input-group-addon" id="basic-addon2">OK</span>
+                    </div>
+                    <p>Segera subscribe untuk mendapatkan informasi dan promo menarik dari 9pintu.</p>
+                </div>
+            </div>
+        </div>
+        <div class="payment-method-section">
+            <div class="container hidden-xs hidden-sm">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8">
+                        <table class="tb-payment">
+                            <tbody>
+                            <tr>
+                                <td valign="middle" class="text-strong">METODE PEMBAYARAN</td>
+                                <td><div class="payment-ic"></div></td>
+                                <td><div class="payment-ic"></div></td>
+                                <td><div class="payment-ic"></div></td>
+                                <td><div class="payment-ic"></div></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <table class="tb-socmed">
+                            <tbody>
+                            <tr>
+                                <td valign="middle" class="text-strong">IKUTI KAMI</td>
+                                <td><div class="socmed-ic"></div></td>
+                                <td><div class="socmed-ic"></div></td>
+                                <td><div class="socmed-ic"></div></td>
+                                <td><div class="socmed-ic"></div></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="container hidden-lg hidden-md">
+                <div class="row">
+                    <div class="col-xs-12 text-strong">
+                        METODE PEMBAYARAN
+                    </div>
+                    <div class="col-xs-3"><div class="payment-ic"></div></div>
+                    <div class="col-xs-3"><div class="payment-ic"></div></div>
+                    <div class="col-xs-3"><div class="payment-ic"></div></div>
+                    <div class="col-xs-3"><div class="payment-ic"></div></div>
+                </div>
+                <div class="row mt-20">
+                    <div class="col-xs-12 text-strong">
+                        IKUTI KAMI
+                    </div>
+                    <div class="col-xs-3"><div class="socmed-ic"></div></div>
+                    <div class="col-xs-3"><div class="socmed-ic"></div></div>
+                    <div class="col-xs-3"><div class="socmed-ic"></div></div>
+                    <div class="col-xs-3"><div class="socmed-ic"></div></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 pt-20 pb-20 text-muted text-sm text-center">
+                    Copyright &copy; 2018 9pintu
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="assets/js/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/pintu.js"></script>
+<script src="assets/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript">
+    $('.form_date').datetimepicker({
+        weekStart: 1,
+        todayBtn:  1,
+        autoclose: 1,
+        todayHighlight: 1,
+        startView: 2,
+        minView: 2,
+        forceParse: 0
+    });
+</script>
+</body>
+</html>
