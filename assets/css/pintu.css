@@ -1,6 +1,19 @@
 body{
     font-family: Lato;
 }
+header{
+    background-color: #6ED3D0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    list-style: none;
+}
+a.text-white:hover{
+    color: #ffffff;
+}
 
 /*Header*/
 .v-head-middle{
@@ -45,7 +58,9 @@ body{
 }
 .panel-tt .panel-heading{
     padding: 12px 15px;
-    border-bottom: solid 5px #dddddd;
+    background-color: #6ED3D0;
+    color: #ffffff;
+    border-bottom: solid 5px #137774;
 }
 .list-tt .list-group-item span.badge{
     position: absolute;
@@ -104,7 +119,7 @@ body{
 .article-hglg{
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 5;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
 .article-hglg-title{
@@ -121,7 +136,6 @@ body{
 }
 .main-product-home{
     height: 220px;
-    padding: 15px;
 }
 .main-product-home p{
     overflow: hidden;
@@ -213,12 +227,44 @@ body{
     border-left: none;
     box-shadow: none;
     border-radius: 0 4px 4px 0;
+    border-color: #cccccc;
+}
+
+.img-topik{
+    border-radius: 6px;
+    width: 68px;
+    height: 68px;
+    display: table;
+}
+.img-topik div{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.img-topik div img{
+    margin: auto;
+}
+.img-topik.heart{
+    background-color: #FF7384;
+}
+.img-topik.health{
+    background-color: #FFDF52;
+}
+.img-topik.edu{
+    background-color: #C196EC;
+}
+.img-topik.world{
+    background-color: #00A9F6;
+}
+.img-topik.hobby{
+    background-color: #DC3323;
 }
 
 /*Footer*/
 
 footer{
-    background-color: #eeeeee;
+    background-color: #137774;
+    color: #ffffff;
 }
 footer .sitemap .list-group li{
     padding-left: 0;
@@ -472,5 +518,17 @@ footer .socmed-ic{
     .trending-title {
         -webkit-line-clamp: 2;
         height: 36.6px;
+    }
+}
+
+@media (min-width: 992px) {
+    .donation-box{
+        padding-left: 0;
+    }
+    .donation-box .card{
+        height: 264px;
+    }
+    .travel-form .card{
+        height: 329px;
     }
 }
