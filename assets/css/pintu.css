@@ -6,10 +6,14 @@ header{
 }
 a{
     text-decoration: none;
+    color: inherit;
 }
 a:hover{
     text-decoration: none;
     list-style: none;
+}
+a:focus{
+    color: inherit;
 }
 a.text-white:hover{
     color: #ffffff;
@@ -305,8 +309,8 @@ footer .socmed-ic{
 @media (max-width: 767px) {
     .mobile-header{
         position: absolute;
-        background-color: #ffffff;
-        z-index: 1;
+        background-color: #6ED3D0;
+        z-index: 4;
     }
 
     /*Sticky Search Header*/
@@ -314,7 +318,7 @@ footer .socmed-ic{
         position: fixed;
         top: 0;
         width: 100%;
-        background-color: #ffffff;
+        background-color: #6ED3D0;
         box-shadow: 0px 3px 3px #808080;
         padding-left: 35px;
         padding-right: 35px;
@@ -353,6 +357,10 @@ footer .socmed-ic{
     }
     .trending-m .tt-items .m-left-pad{
         padding-left: 35px;
+    }
+    .trending-m .tt-items .m-left-pad span.badge{
+        position: absolute;
+        left: 30px;
     }
     .trending-m .title-tt{
         padding-right: 35px;
@@ -442,8 +450,8 @@ footer .socmed-ic{
     .trending-m{
         border-top: solid 1px #dddddd;
         border-bottom: solid 1px #dddddd;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         background-color: #e2e2e2;
     }
     .trending-m .tt-items .box-img{
