@@ -618,6 +618,9 @@ nav .nav li a:focus {
     padding: 15px 0;
     position: relative;
 }
+.btn-login:hover{
+    color: #ffffff;
+}
 .btn-login i{
     position: absolute;
     left: 10px;
@@ -644,6 +647,9 @@ nav .nav li a:focus {
     background-color: #FAFAFA;
 }
 
+.sos-ico{
+    width: 35px;
+}
 
 .card{
     border: solid 1px #dddddd;
