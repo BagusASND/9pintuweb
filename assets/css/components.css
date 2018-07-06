@@ -559,7 +559,7 @@ nav .nav li a:focus {
 }
 
 .input-group .input-group-addon.bg-primary {
-    border-color: #ff7200;
+    border-color: #137774;
 }
 
 .input-group .input-group-addon.bg-primary a {
@@ -567,18 +567,31 @@ nav .nav li a:focus {
     color: #ffffff;
 }
 
+.no-radius{
+    border-radius: 0;
+}
 .has-radius {
     border-radius: 4px;
+}
+.has-shadow{
+    box-shadow: 0 0 3px #c7c7c7;
 }
 
 /*Button*/
 .btn {
     border-radius: 0;
 }
+.btn.has-radius{
+    border-radius: 2px;
+}
+
+.btn-default{
+    background-color: #F4F4F4;
+}
 
 .btn-primary, .btn-primary:hover {
-    background-color: #ff7200;
-    border-color: #ff7200;
+    background-color: #137774;
+    border-color: #137774;
 }
 
 .btn-link {
@@ -598,15 +611,57 @@ nav .nav li a:focus {
     color: #ffffff;
 }
 
+.btn-login{
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 15px 0;
+    position: relative;
+}
+.btn-login i{
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+.btn-login.fb{
+    background-color: #4A67AD;
+}
+.btn-login.gplus{
+    background-color: #CF4D37;
+}
+
 .badge-primary {
     background-color: #ff7200;
 }
 
 .bg-primary{
-    background-color: #ff7200;
+    background-color: #137774;
+}
+.bg-white{
+    background-color: #ffffff;
+}
+.bg-muted{
+    background-color: #FAFAFA;
 }
 
 
 .card{
     border: solid 1px #dddddd;
+}
+
+.strip-line{
+    width: 100%;
+    height: 1px;
+    background-color: #dddddd;
+    position: relative;
+}
+.strip-line p{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -11px;
+}
+.strip-line p span{
+    background-color: #ffffff;
+    padding: 0 20px;
 }

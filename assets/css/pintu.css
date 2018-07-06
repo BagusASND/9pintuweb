@@ -2,14 +2,26 @@ body{
     font-family: Lato;
 }
 header{
-    background-color: #6ED3D0;
+    background-color: #31c1bc;
+}
+.middle-section{
+    background-color: #FAFAFA;
+    margin-top: 30px;
+    padding: 20px 0;
 }
 a{
     text-decoration: none;
     color: inherit;
 }
+a.default-link{
+    color: #3674C8;
+}
 a:hover{
     text-decoration: none;
+    list-style: none;
+}
+a button:hover{
+    text-decoration: none!important;
     list-style: none;
 }
 a:focus{
@@ -62,14 +74,15 @@ a.text-white:hover{
 }
 .panel-tt .panel-heading{
     padding: 12px 15px;
-    background-color: #6ED3D0;
+    background-color: #31c1bc;
     color: #ffffff;
     border-bottom: solid 5px #137774;
+    border-radius: 0;
 }
 .list-tt .list-group-item span.badge{
     position: absolute;
     z-index: 1;
-    top: 28px;
+    top: 10px;
     left: 6px;
 }
 .trending-title{
@@ -149,7 +162,7 @@ a.text-white:hover{
 }
 .list-item-home{
     height: 110px;
-    padding: 15px;
+    padding: 0;
 }
 .list-item-home p{
     overflow: hidden;
@@ -158,13 +171,26 @@ a.text-white:hover{
     -webkit-box-orient: vertical;
 }
 .item-partner{
-    border: solid 1px #dddddd;
+    border-right: solid 1px #dddddd;
     width: 14.28%;
     display: inline-block;
     position: relative;
     float: left;
     text-align: center;
-    padding: 20px;
+    padding: 0 20px;
+}
+.item-partner:last-child{
+    border-right: none;
+}
+.item-partner p{
+    text-align: left;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.item-partner .margin-official{
+    margin-top: 50%;
 }
 
 .scrolling-wrapper{
@@ -234,6 +260,11 @@ a.text-white:hover{
     border-color: #cccccc;
 }
 
+.badge-tt{
+    background-color: #E95435;
+    border: solid 2px #ffffff;
+}
+
 .img-topik{
     border-radius: 6px;
     width: 68px;
@@ -262,6 +293,30 @@ a.text-white:hover{
 }
 .img-topik.hobby{
     background-color: #DC3323;
+}
+
+
+.form-login .form-control, .form-register .form-control{
+    border: solid 1px #dddddd;
+    border-radius: 4px;
+    height: 47px;
+}
+.form-login .input-group .form-control, .form-register .input-group .form-control{
+    border-right: none;
+}
+.form-login .input-group .input-group-addon, .form-register .input-group .input-group-addon{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #FAFAFA;
+    border-color: #dddddd;
+}
+.form-login button, .form-register button{
+    height: 47px;
+}
+#modalLogin .modal-footer, #modalRegister .modal-footer, #modalForgotPassword .modal-footer{
+    background-color: #FAFAFA;
+    text-align: center;
+    border-top: none;
 }
 
 /*Footer*/
@@ -298,7 +353,6 @@ footer .tb-socmed tr td{
 footer .payment-ic{
     width: 70px;
     height: 30px;
-    background-color: #dddddd;
 }
 footer .socmed-ic{
     width: 40px;
@@ -309,7 +363,7 @@ footer .socmed-ic{
 @media (max-width: 767px) {
     .mobile-header{
         position: absolute;
-        background-color: #6ED3D0;
+        background-color: #31c1bc;
         z-index: 4;
     }
 
@@ -318,7 +372,7 @@ footer .socmed-ic{
         position: fixed;
         top: 0;
         width: 100%;
-        background-color: #6ED3D0;
+        background-color: #31c1bc;
         box-shadow: 0px 3px 3px #808080;
         padding-left: 35px;
         padding-right: 35px;
@@ -371,6 +425,17 @@ footer .socmed-ic{
     }
     .item-partner{
         width: 50%;
+        margin-bottom: 15px;
+    }
+    .item-partner:nth-child(even){
+        border-right: none;
+    }
+    .item-partner.last{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .item-partner .margin-official{
+        margin-top: 15px;
     }
     .item-partner-show{
         border: solid 1px #dddddd;
@@ -425,6 +490,13 @@ footer .socmed-ic{
     }
     .item-partner{
         width: 25%;
+        margin-bottom: 15px;
+    }
+    .item-partner.last{
+        width: 50%;
+    }
+    .item-partner .margin-official {
+        margin-top: 30%;
     }
     .item-partner-show{
         border: solid 1px #dddddd;
