@@ -10,14 +10,16 @@
     z-index: 9;
     top: 0;
     left: 0;
-    background-color: #dddddd;
+    background-color: #ffffff;
     overflow-x: hidden;
     transition: 0.5s;
+    box-shadow: 0 0 10px #2f2e2e;
 }
 
 .sidenav .head-nav{
-    background-color: #d0d0d0;
+    background-color: #137774;
     padding: 8px 40px;
+    font-size: 12px;
 }
 .sidenav .head-nav a{
     text-decoration: none;
@@ -28,10 +30,10 @@
     padding: 0 32px;
 }
 .sidenav .menu-item a {
-    padding: 5px 8px;
+    padding: 10px 8px;
     text-decoration: none;
-    font-size: 14px;
-    color: #818181;
+    font-size: 12px;
+    color: #137774;
     display: block;
     transition: 0.3s;
 }
@@ -52,10 +54,11 @@
     font-size: 20px;
     text-align: right;
     padding: 15px;
+    background-color: #31c1bc;
 }
 .sidenav .closebtn a{
     text-decoration: none;
-    color: #818181;
+    color: #ffffff;
 }
 
 @media screen and (max-height: 450px) {

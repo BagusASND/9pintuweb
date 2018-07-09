@@ -159,7 +159,7 @@
     display: block;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
     .next{
         right: 0;
     }
@@ -178,7 +178,7 @@
      * Demo Page Styles
      */
     .examplecode, .frame, .events_log {
-        width: 580px;
+        width: 100%;
     }
 
     .testscreen {
@@ -199,7 +199,7 @@
      */
 
     .slider {
-        width: 640px;
+        width: 100%;
         margin: 0 auto 20px;
     }
 
@@ -215,7 +215,7 @@
     }
 
     .multipleelements li, .multislides li, .ease li {
-        width: 130px;
+        width: 135px;
         margin-right: 20px;
     }
 }
