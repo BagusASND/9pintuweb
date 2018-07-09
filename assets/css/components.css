@@ -547,11 +547,13 @@ nav .nav li a:focus {
     background-color: #137774;
 }
 
-nav.paging{
-    background-color: #ffffff;
+nav.paging.absolute{
     position: absolute;
     right: 0;
     top: 20px;
+}
+nav.paging{
+    background-color: #ffffff;
 }
 nav.paging ul{
     margin: 0;
