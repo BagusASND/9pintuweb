@@ -4,10 +4,28 @@ body{
 header{
     background-color: #31c1bc;
 }
+.nav-main-menu li.active a{
+    background-color: #ffffff;
+    color: #137774;
+}
+.sub-nav{
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px #e6e6e6;
+}
+.sub-nav .nav-tabs{
+    border-bottom: none;
+}
+.sub-nav .nav-tabs li a{
+    color: #000000;
+}
 .middle-section{
     background-color: #FAFAFA;
     margin-top: 30px;
     padding: 20px 0;
+}
+.middle-section.media{
+    margin-top: 0;
+    padding: 15px 0;
 }
 a{
     text-decoration: none;
@@ -96,8 +114,14 @@ a.text-white:hover{
 .v-thumb{
     height: 160px;
 }
+.v-thumb-media{
+    height: 228.5px;
+}
 .v-thumb:first-child{
     margin-bottom: 4px;
+}
+.v-thumb-media:first-child{
+    margin-bottom: 15px;
 }
 .v-thumb-item{
     width: 100%;
@@ -125,7 +149,7 @@ a.text-white:hover{
     margin-bottom: 0px;
     margin-top: 5px;
 }
-.v-thumb img{
+.v-thumb img, .v-thumb-media img{
     width: 100%;
     height: 100%;
 }
@@ -322,7 +346,7 @@ a.text-white:hover{
 /*Footer*/
 
 footer{
-    background-color: #137774;
+    background-color: #258c88;
     color: #ffffff;
 }
 footer .sitemap .list-group li{
@@ -462,6 +486,10 @@ footer .socmed-ic{
     footer .payment-ic{
         width: auto;
     }
+
+    .middle-section.media{
+        margin-top: 103px;
+    }
     
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -550,13 +578,13 @@ footer .socmed-ic{
         padding-left: 15px;
         margin-top: 15px;
     }
-    .v-thumb {
+    .v-thumb, .v-thumb-media {
         height: auto;
     }
-    .v-thumb.first{
+    .v-thumb.first, .v-thumb-media.first{
         padding-right: 5px;
     }
-    .v-thumb.last{
+    .v-thumb.last, .v-thumb-media.last{
         padding-left: 5px;
     }
     .carousel-caption.mobile{
