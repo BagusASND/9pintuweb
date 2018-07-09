@@ -540,11 +540,11 @@ nav .nav li a {
 }
 
 nav .nav li a:hover {
-    background-color: #137774;
+    background-color: transparent;
 }
 
 nav .nav li a:focus {
-    background-color: #137774;
+    background-color: transparent;
 }
 
 nav.paging.absolute{
@@ -700,4 +700,14 @@ nav.paging ul li.active a{
 
 .divider{
     border-bottom: solid 1px #dddddd;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.breadcrumb{
+    background-color: transparent;
+    margin-bottom: 0;
+    padding: 15px 0;
 }

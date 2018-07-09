@@ -38,7 +38,7 @@
         <a href="" data-toggle="modal" data-target="#modalLogin" data-dismiss="modal">Masuk/Daftar</a>
     </div>
     <div class="menu-item">
-        <a href="#" class="item">Beranda</a>
+        <a href="index.html" class="item">Beranda</a>
         <a href="#" class="item">Media</a>
         <a href="#" class="item">Berbagi Rezeki</a>
         <a href="#" class="item">Travel Syariah</a>
@@ -75,12 +75,12 @@
             </div>
         </div>
     </header>
-    <header class="hidden-xs">
+    <header class="header-desktop hidden-xs">
         <div class="container">
             <div class="row">
                 <div class="top-group">
                     <div class="col-lg-2 col-md-2 col-sm-3 text-center">
-                        <img src="assets/images/dummy-logo.png" class="img-responsive">
+                        <a href="index.html"><img src="assets/images/dummy-logo.png" class="img-responsive"></a>
                     </div>
                     <div class="col-sm-9 hidden-lg hidden-md text-right sign-btn-group">
                         <div class="row">
@@ -117,59 +117,61 @@
                 </div>
             </div>
         </div>
-    </header>
-    <nav class="hidden-xs">
-        <div class="container">
-            <ul class="nav nav-justified nav-main-menu">
-                <li class="active"><a href="#">Media</a></li>
-                <li><a href="#">Berbagi Rezeki</a></li>
-                <li><a href="#">Travel Syariah</a></li>
-                <li><a href="#">Belanja</a></li>
-                <li><a href="#">Official Mitra</a></li>
-                <li><a href="#">Silaturahmi</a></li>
-            </ul>
-        </div>
-    </nav>
-    <nav class="hidden-xs sub-nav">
-        <div class="container">
-            <ul class="nav nav-tabs">
-                <li><a href="#">Artikel</a></li>
-                <li><a href="#">Video</a></li>
-                <li><a href="#">Foto</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="middle-section media">
-        <div class="container no-padding">
+        <nav class="hidden-xs">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                        <div class="v-thumb-item">
-                            <img src="img/03.png" class="btn-block">
-                            <div class="thumb-caption">
-                                <p class="no-margin">Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum</p>
-                                <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 top-r-section">
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-6 col-xs-6 v-thumb-media first">
-                                <div class="v-thumb-item">
-                                    <img src="img/01.png">
-                                    <div class="thumb-caption">
-                                        <p class="no-margin">Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum</p>
-                                        <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
-                                    </div>
+                <ul class="nav nav-justified nav-main-menu">
+                    <li class="active"><a href="#">Media</a></li>
+                    <li><a href="#">Berbagi Rezeki</a></li>
+                    <li><a href="#">Travel Syariah</a></li>
+                    <li><a href="#">Belanja</a></li>
+                    <li><a href="#">Official Mitra</a></li>
+                    <li><a href="#">Silaturahmi</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="hidden-xs sub-nav">
+            <div class="container">
+                <ul class="nav nav-tabs">
+                    <li><a id="article" class="cursor-pointer">Artikel</a></li>
+                    <li><a id="video" class="cursor-pointer">Video</a></li>
+                    <li><a id="photo" class="cursor-pointer">Foto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid no-padding content m-container">
+        <div class="middle-section">
+            <div class="container no-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                            <div class="v-thumb-item">
+                                <img src="img/03.png" class="btn-block">
+                                <div class="thumb-caption">
+                                    <p class="no-margin">Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum</p>
+                                    <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
                                 </div>
                             </div>
-                            <div class="col-lg-12 col-md-12 col-sm-6 col-xs-6 v-thumb-media last">
-                                <div class="v-thumb-item">
-                                    <img src="img/02.png">
-                                    <div class="thumb-caption">
-                                        <p class="no-margin">Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum</p>
-                                        <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 top-r-section">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-6 col-xs-6 v-thumb-media first">
+                                    <div class="v-thumb-item">
+                                        <img src="img/01.png">
+                                        <div class="thumb-caption">
+                                            <p class="no-margin">Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum</p>
+                                            <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-6 col-xs-6 v-thumb-media last">
+                                    <div class="v-thumb-item">
+                                        <img src="img/02.png">
+                                        <div class="thumb-caption">
+                                            <p class="no-margin">Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum</p>
+                                            <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -178,356 +180,356 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="container pb-50">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="row">
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                        <div class="col-xs-12">
-                            <div class="row divider">
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                    <h3 class="text-primary">Artikel</h3>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hidden-sm hidden-xs">
-                                    <nav aria-label="Page navigation" class="paging absolute">
-                                        <ul class="pagination">
-                                            <li><a href="">First</a></li>
-                                            <li><a href="">Previous</a></li>
-                                            <li class="active"><a href="">1</a></li>
-                                            <li><a href="">2</a></li>
-                                            <li><a href="">3</a></li>
-                                            <li><a href="">4</a></li>
-                                            <li><a href="">Next</a></li>
-                                            <li><a href="">Last</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                            <div class="row pt-15">
-                                <div class="row mb-10 article-hglg-m">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                                        <img src="img/01.png" class="img-responsive">
+        <div class="container pb-50 pt-20">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                            <div class="col-xs-12">
+                                <div class="row divider">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                        <h3 class="text-primary" id="articleSection">Artikel</h3>
                                     </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-                                        <p class="article-hglg-title">Dapatkan DP 7% atau Diskon hingga 15% untuk Miliki Hunian Idamanmu</p>
-                                        <p class="article-hglg">Jangan sia-siakan waktu untuk memiliki hunian impian Anda. Saat ini, Sinar Mas Land sedang menggelar program tengah tahun 'Easy Deal'. Anda bisa mendapatkan kemudahan cara bayar yang lebih beragam. Kapan lagi punya hunian dari Sinar Mas Land dengan penawaran semenarik ini? Sekarang waktunya mewujudkan mimpi untuk membeli hunian impian. Besarnya down payment (DP) yang harus Anda bayar akan disesuaikan dengan ketentuan Bank Indonesia.</p>
-                                        <p class="text-muted text-sm"><i class="far fa-clock"></i> 30/12/2018</p>
-                                    </div>
-                                </div>
-                                <div class="row mb-10 article-hglg-m">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                                        <img src="img/01.png" class="img-responsive">
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-                                        <p class="article-hglg-title">Dapatkan DP 7% atau Diskon hingga 15% untuk Miliki Hunian Idamanmu</p>
-                                        <p class="article-hglg">Jangan sia-siakan waktu untuk memiliki hunian impian Anda. Saat ini, Sinar Mas Land sedang menggelar program tengah tahun 'Easy Deal'. Anda bisa mendapatkan kemudahan cara bayar yang lebih beragam. Kapan lagi punya hunian dari Sinar Mas Land dengan penawaran semenarik ini? Sekarang waktunya mewujudkan mimpi untuk membeli hunian impian. Besarnya down payment (DP) yang harus Anda bayar akan disesuaikan dengan ketentuan Bank Indonesia.</p>
-                                        <p class="text-muted text-sm"><i class="far fa-clock"></i> 30/12/2018</p>
-                                    </div>
-                                </div>
-                                <div class="row mb-10 article-hglg-m">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                                        <img src="img/01.png" class="img-responsive">
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-                                        <p class="article-hglg-title">Dapatkan DP 7% atau Diskon hingga 15% untuk Miliki Hunian Idamanmu</p>
-                                        <p class="article-hglg">Jangan sia-siakan waktu untuk memiliki hunian impian Anda. Saat ini, Sinar Mas Land sedang menggelar program tengah tahun 'Easy Deal'. Anda bisa mendapatkan kemudahan cara bayar yang lebih beragam. Kapan lagi punya hunian dari Sinar Mas Land dengan penawaran semenarik ini? Sekarang waktunya mewujudkan mimpi untuk membeli hunian impian. Besarnya down payment (DP) yang harus Anda bayar akan disesuaikan dengan ketentuan Bank Indonesia.</p>
-                                        <p class="text-muted text-sm"><i class="far fa-clock"></i> 30/12/2018</p>
-                                    </div>
-                                </div>
-                                <div class="row mb-10 article-hglg-m">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                                        <img src="img/01.png" class="img-responsive">
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-                                        <p class="article-hglg-title">Dapatkan DP 7% atau Diskon hingga 15% untuk Miliki Hunian Idamanmu</p>
-                                        <p class="article-hglg">Jangan sia-siakan waktu untuk memiliki hunian impian Anda. Saat ini, Sinar Mas Land sedang menggelar program tengah tahun 'Easy Deal'. Anda bisa mendapatkan kemudahan cara bayar yang lebih beragam. Kapan lagi punya hunian dari Sinar Mas Land dengan penawaran semenarik ini? Sekarang waktunya mewujudkan mimpi untuk membeli hunian impian. Besarnya down payment (DP) yang harus Anda bayar akan disesuaikan dengan ketentuan Bank Indonesia.</p>
-                                        <p class="text-muted text-sm"><i class="far fa-clock"></i> 30/12/2018</p>
-                                    </div>
-                                </div>
-                                <div class="row mb-10 article-hglg-m">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                                        <img src="img/01.png" class="img-responsive">
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-                                        <p class="article-hglg-title">Dapatkan DP 7% atau Diskon hingga 15% untuk Miliki Hunian Idamanmu</p>
-                                        <p class="article-hglg">Jangan sia-siakan waktu untuk memiliki hunian impian Anda. Saat ini, Sinar Mas Land sedang menggelar program tengah tahun 'Easy Deal'. Anda bisa mendapatkan kemudahan cara bayar yang lebih beragam. Kapan lagi punya hunian dari Sinar Mas Land dengan penawaran semenarik ini? Sekarang waktunya mewujudkan mimpi untuk membeli hunian impian. Besarnya down payment (DP) yang harus Anda bayar akan disesuaikan dengan ketentuan Bank Indonesia.</p>
-                                        <p class="text-muted text-sm"><i class="far fa-clock"></i> 30/12/2018</p>
-                                    </div>
-                                </div>
-                                <div class="row mb-10 article-hglg-m">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                                        <img src="img/01.png" class="img-responsive">
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-                                        <p class="article-hglg-title">Dapatkan DP 7% atau Diskon hingga 15% untuk Miliki Hunian Idamanmu</p>
-                                        <p class="article-hglg">Jangan sia-siakan waktu untuk memiliki hunian impian Anda. Saat ini, Sinar Mas Land sedang menggelar program tengah tahun 'Easy Deal'. Anda bisa mendapatkan kemudahan cara bayar yang lebih beragam. Kapan lagi punya hunian dari Sinar Mas Land dengan penawaran semenarik ini? Sekarang waktunya mewujudkan mimpi untuk membeli hunian impian. Besarnya down payment (DP) yang harus Anda bayar akan disesuaikan dengan ketentuan Bank Indonesia.</p>
-                                        <p class="text-muted text-sm"><i class="far fa-clock"></i> 30/12/2018</p>
-                                    </div>
-                                </div>
-                                <div class="row text-center mb-20">
-                                    <div class="col-xs-12 hidden-lg hidden-md">
-                                        <nav aria-label="Page navigation" class="paging">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hidden-sm hidden-xs">
+                                        <nav aria-label="Page navigation" class="paging absolute">
                                             <ul class="pagination">
                                                 <li><a href="">First</a></li>
-                                                <li><a href=""><i class="fas fa-chevron-left"></i></a></li>
+                                                <li><a href="">Previous</a></li>
                                                 <li class="active"><a href="">1</a></li>
                                                 <li><a href="">2</a></li>
                                                 <li><a href="">3</a></li>
-                                                <li><a href=""><i class="fas fa-chevron-right"></i></a></li>
+                                                <li><a href="">4</a></li>
+                                                <li><a href="">Next</a></li>
                                                 <li><a href="">Last</a></li>
                                             </ul>
                                         </nav>
                                     </div>
                                 </div>
+                                <div class="row pt-15">
+                                    <div class="row mb-10 article-hglg-m">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                            <img src="img/01.png" class="img-responsive">
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                            <p class="article-hglg-title text-strong">Dapatkan DP 7% atau Diskon hingga 15% untuk Miliki Hunian Idamanmu</p>
+                                            <p class="article-hglg">Jangan sia-siakan waktu untuk memiliki hunian impian Anda. Saat ini, Sinar Mas Land sedang menggelar program tengah tahun 'Easy Deal'. Anda bisa mendapatkan kemudahan cara bayar yang lebih beragam. Kapan lagi punya hunian dari Sinar Mas Land dengan penawaran semenarik ini? Sekarang waktunya mewujudkan mimpi untuk membeli hunian impian. Besarnya down payment (DP) yang harus Anda bayar akan disesuaikan dengan ketentuan Bank Indonesia.</p>
+                                            <p class="text-muted text-sm"><i class="far fa-clock"></i> 30/12/2018</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-10 article-hglg-m">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                            <img src="img/01.png" class="img-responsive">
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                            <p class="article-hglg-title text-strong">Dapatkan DP 7% atau Diskon hingga 15% untuk Miliki Hunian Idamanmu</p>
+                                            <p class="article-hglg">Jangan sia-siakan waktu untuk memiliki hunian impian Anda. Saat ini, Sinar Mas Land sedang menggelar program tengah tahun 'Easy Deal'. Anda bisa mendapatkan kemudahan cara bayar yang lebih beragam. Kapan lagi punya hunian dari Sinar Mas Land dengan penawaran semenarik ini? Sekarang waktunya mewujudkan mimpi untuk membeli hunian impian. Besarnya down payment (DP) yang harus Anda bayar akan disesuaikan dengan ketentuan Bank Indonesia.</p>
+                                            <p class="text-muted text-sm"><i class="far fa-clock"></i> 30/12/2018</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-10 article-hglg-m">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                            <img src="img/01.png" class="img-responsive">
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                            <p class="article-hglg-title text-strong">Dapatkan DP 7% atau Diskon hingga 15% untuk Miliki Hunian Idamanmu</p>
+                                            <p class="article-hglg">Jangan sia-siakan waktu untuk memiliki hunian impian Anda. Saat ini, Sinar Mas Land sedang menggelar program tengah tahun 'Easy Deal'. Anda bisa mendapatkan kemudahan cara bayar yang lebih beragam. Kapan lagi punya hunian dari Sinar Mas Land dengan penawaran semenarik ini? Sekarang waktunya mewujudkan mimpi untuk membeli hunian impian. Besarnya down payment (DP) yang harus Anda bayar akan disesuaikan dengan ketentuan Bank Indonesia.</p>
+                                            <p class="text-muted text-sm"><i class="far fa-clock"></i> 30/12/2018</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-10 article-hglg-m">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                            <img src="img/01.png" class="img-responsive">
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                            <p class="article-hglg-title text-strong">Dapatkan DP 7% atau Diskon hingga 15% untuk Miliki Hunian Idamanmu</p>
+                                            <p class="article-hglg">Jangan sia-siakan waktu untuk memiliki hunian impian Anda. Saat ini, Sinar Mas Land sedang menggelar program tengah tahun 'Easy Deal'. Anda bisa mendapatkan kemudahan cara bayar yang lebih beragam. Kapan lagi punya hunian dari Sinar Mas Land dengan penawaran semenarik ini? Sekarang waktunya mewujudkan mimpi untuk membeli hunian impian. Besarnya down payment (DP) yang harus Anda bayar akan disesuaikan dengan ketentuan Bank Indonesia.</p>
+                                            <p class="text-muted text-sm"><i class="far fa-clock"></i> 30/12/2018</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-10 article-hglg-m">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                            <img src="img/01.png" class="img-responsive">
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                            <p class="article-hglg-title text-strong">Dapatkan DP 7% atau Diskon hingga 15% untuk Miliki Hunian Idamanmu</p>
+                                            <p class="article-hglg">Jangan sia-siakan waktu untuk memiliki hunian impian Anda. Saat ini, Sinar Mas Land sedang menggelar program tengah tahun 'Easy Deal'. Anda bisa mendapatkan kemudahan cara bayar yang lebih beragam. Kapan lagi punya hunian dari Sinar Mas Land dengan penawaran semenarik ini? Sekarang waktunya mewujudkan mimpi untuk membeli hunian impian. Besarnya down payment (DP) yang harus Anda bayar akan disesuaikan dengan ketentuan Bank Indonesia.</p>
+                                            <p class="text-muted text-sm"><i class="far fa-clock"></i> 30/12/2018</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-10 article-hglg-m">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                            <img src="img/01.png" class="img-responsive">
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                            <p class="article-hglg-title text-strong">Dapatkan DP 7% atau Diskon hingga 15% untuk Miliki Hunian Idamanmu</p>
+                                            <p class="article-hglg">Jangan sia-siakan waktu untuk memiliki hunian impian Anda. Saat ini, Sinar Mas Land sedang menggelar program tengah tahun 'Easy Deal'. Anda bisa mendapatkan kemudahan cara bayar yang lebih beragam. Kapan lagi punya hunian dari Sinar Mas Land dengan penawaran semenarik ini? Sekarang waktunya mewujudkan mimpi untuk membeli hunian impian. Besarnya down payment (DP) yang harus Anda bayar akan disesuaikan dengan ketentuan Bank Indonesia.</p>
+                                            <p class="text-muted text-sm"><i class="far fa-clock"></i> 30/12/2018</p>
+                                        </div>
+                                    </div>
+                                    <div class="row text-center mb-20">
+                                        <div class="col-xs-12 hidden-lg hidden-md">
+                                            <nav aria-label="Page navigation" class="paging">
+                                                <ul class="pagination">
+                                                    <li><a href="">First</a></li>
+                                                    <li><a href=""><i class="fas fa-chevron-left"></i></a></li>
+                                                    <li class="active"><a href="">1</a></li>
+                                                    <li><a href="">2</a></li>
+                                                    <li><a href="">3</a></li>
+                                                    <li><a href=""><i class="fas fa-chevron-right"></i></a></li>
+                                                    <li><a href="">Last</a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <div class="panel panel-default panel-tt has-shadow">
-                            <div class="panel-heading">
-                                <h6 class="text-center no-margin text-strong">Trending Topic</h6>
-                            </div>
-                            <div class="panel-body no-padding">
-                                <ul class="list-group list-tt no-margin">
-                                    <li class="list-group-item">
-                                        <span class="badge badge-tt">1</span>
-                                        <div class="row">
-                                            <div class="col-xs-4 pr-0">
-                                                <img src="img/image-thumbnail.jpg" class="img-responsive">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="panel panel-default panel-tt has-shadow">
+                                <div class="panel-heading">
+                                    <h6 class="text-center no-margin text-strong">Trending Topic</h6>
+                                </div>
+                                <div class="panel-body no-padding">
+                                    <ul class="list-group list-tt no-margin">
+                                        <li class="list-group-item">
+                                            <span class="badge badge-tt">1</span>
+                                            <div class="row">
+                                                <div class="col-xs-4 pr-0">
+                                                    <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                                </div>
+                                                <div class="col-xs-8 trending-title text-strong">Sketsa di Bulan Ramadhan 2018 cxvehrg v  cgdshg dhsg</div>
                                             </div>
-                                            <div class="col-xs-8 trending-title text-strong">Sketsa di Bulan Ramadhan 2018 cxvehrg v  cgdshg dhsg</div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <span class="badge badge-tt">2</span>
-                                        <div class="row">
-                                            <div class="col-xs-4 pr-0">
-                                                <img src="img/video-thumbnail.png" class="img-responsive">
+                                        </li>
+                                        <li class="list-group-item">
+                                            <span class="badge badge-tt">2</span>
+                                            <div class="row">
+                                                <div class="col-xs-4 pr-0">
+                                                    <img src="img/video-thumbnail.png" class="img-responsive">
+                                                </div>
+                                                <div class="col-xs-8 trending-title text-strong">Sketsa di Bulan Ramadhan 2018</div>
                                             </div>
-                                            <div class="col-xs-8 trending-title text-strong">Sketsa di Bulan Ramadhan 2018</div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <span class="badge badge-tt">3</span>
-                                        <div class="row">
-                                            <div class="col-xs-4 pr-0">
-                                                <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                        </li>
+                                        <li class="list-group-item">
+                                            <span class="badge badge-tt">3</span>
+                                            <div class="row">
+                                                <div class="col-xs-4 pr-0">
+                                                    <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                                </div>
+                                                <div class="col-xs-8 trending-title text-strong">Sketsa di Bulan Ramadhan 2018</div>
                                             </div>
-                                            <div class="col-xs-8 trending-title text-strong">Sketsa di Bulan Ramadhan 2018</div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <span class="badge badge-tt">4</span>
-                                        <div class="row">
-                                            <div class="col-xs-4 pr-0">
-                                                <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                        </li>
+                                        <li class="list-group-item">
+                                            <span class="badge badge-tt">4</span>
+                                            <div class="row">
+                                                <div class="col-xs-4 pr-0">
+                                                    <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                                </div>
+                                                <div class="col-xs-8 trending-title text-strong">Sketsa di Bulan Ramadhan 2018</div>
                                             </div>
-                                            <div class="col-xs-8 trending-title text-strong">Sketsa di Bulan Ramadhan 2018</div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <span class="badge badge-tt">5</span>
-                                        <div class="row">
-                                            <div class="col-xs-4 pr-0">
-                                                <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                        </li>
+                                        <li class="list-group-item">
+                                            <span class="badge badge-tt">5</span>
+                                            <div class="row">
+                                                <div class="col-xs-4 pr-0">
+                                                    <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                                </div>
+                                                <div class="col-xs-8 trending-title text-strong">Sketsa di Bulan Ramadhan 2018</div>
                                             </div>
-                                            <div class="col-xs-8 trending-title text-strong">Sketsa di Bulan Ramadhan 2018</div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <span class="badge badge-tt">6</span>
-                                        <div class="row">
-                                            <div class="col-xs-4 pr-0">
-                                                <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                        </li>
+                                        <li class="list-group-item">
+                                            <span class="badge badge-tt">6</span>
+                                            <div class="row">
+                                                <div class="col-xs-4 pr-0">
+                                                    <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                                </div>
+                                                <div class="col-xs-8 trending-title text-strong">Sketsa di Bulan Ramadhan 2018</div>
                                             </div>
-                                            <div class="col-xs-8 trending-title text-strong">Sketsa di Bulan Ramadhan 2018</div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <span class="badge badge-tt">7</span>
-                                        <div class="row">
-                                            <div class="col-xs-4 pr-0">
-                                                <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                        </li>
+                                        <li class="list-group-item">
+                                            <span class="badge badge-tt">7</span>
+                                            <div class="row">
+                                                <div class="col-xs-4 pr-0">
+                                                    <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                                </div>
+                                                <div class="col-xs-8 trending-title text-strong">Sketsa di Bulan Ramadhan 2018</div>
                                             </div>
-                                            <div class="col-xs-8 trending-title text-strong">Sketsa di Bulan Ramadhan 2018</div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <span class="badge badge-tt">8</span>
-                                        <div class="row">
-                                            <div class="col-xs-4 pr-0">
-                                                <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                        </li>
+                                        <li class="list-group-item">
+                                            <span class="badge badge-tt">8</span>
+                                            <div class="row">
+                                                <div class="col-xs-4 pr-0">
+                                                    <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                                </div>
+                                                <div class="col-xs-8 trending-title text-strong">Sketsa di Bulan Ramadhan 2018</div>
                                             </div>
-                                            <div class="col-xs-8 trending-title text-strong">Sketsa di Bulan Ramadhan 2018</div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <span class="badge badge-tt">9</span>
-                                        <div class="row">
-                                            <div class="col-xs-4 pr-0">
-                                                <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                        </li>
+                                        <li class="list-group-item">
+                                            <span class="badge badge-tt">9</span>
+                                            <div class="row">
+                                                <div class="col-xs-4 pr-0">
+                                                    <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                                </div>
+                                                <div class="col-xs-8 trending-title text-strong">Sketsa di Bulan Ramadhan 2018</div>
                                             </div>
-                                            <div class="col-xs-8 trending-title text-strong">Sketsa di Bulan Ramadhan 2018</div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <span class="badge badge-tt">10</span>
-                                        <div class="row">
-                                            <div class="col-xs-4 pr-0">
-                                                <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                        </li>
+                                        <li class="list-group-item">
+                                            <span class="badge badge-tt">10</span>
+                                            <div class="row">
+                                                <div class="col-xs-4 pr-0">
+                                                    <img src="img/image-thumbnail.jpg" class="img-responsive">
+                                                </div>
+                                                <div class="col-xs-8 trending-title text-strong">Sketsa di Bulan Ramadhan 2018</div>
                                             </div>
-                                            <div class="col-xs-8 trending-title text-strong">Sketsa di Bulan Ramadhan 2018</div>
-                                        </div>
-                                    </li>
-                                </ul>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
+            <div class="row">
                 <div class="col-xs-12">
-                    <div class="row divider">
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <h3 class="text-primary">Video</h3>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hidden-sm hidden-xs">
-                            <nav aria-label="Page navigation" class="paging absolute">
-                                <ul class="pagination">
-                                    <li><a href="">First</a></li>
-                                    <li><a href="">Previous</a></li>
-                                    <li class="active"><a href="">1</a></li>
-                                    <li><a href="">2</a></li>
-                                    <li><a href="">3</a></li>
-                                    <li><a href="">4</a></li>
-                                    <li><a href="">Next</a></li>
-                                    <li><a href="">Last</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mt-20">
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 mb-15">
-                <div class="v-thumb-item">
-                    <img src="img/02.png" class="btn-block">
-                    <div class="thumb-caption">
-                        <p class="no-margin">Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum</p>
-                        <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 mb-15">
-                <div class="v-thumb-item">
-                    <img src="img/02.png" class="btn-block">
-                    <div class="thumb-caption">
-                        <p class="no-margin">Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum</p>
-                        <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 mb-15">
-                <div class="v-thumb-item">
-                    <img src="img/02.png" class="btn-block">
-                    <div class="thumb-caption">
-                        <p class="no-margin">Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum</p>
-                        <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 mb-15">
-                <div class="v-thumb-item">
-                    <img src="img/02.png" class="btn-block">
-                    <div class="thumb-caption">
-                        <p class="no-margin">Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum</p>
-                        <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 mb-15">
-                <div class="v-thumb-item">
-                    <img src="img/02.png" class="btn-block">
-                    <div class="thumb-caption">
-                        <p class="no-margin">Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum</p>
-                        <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 mb-15">
-                <div class="v-thumb-item">
-                    <img src="img/02.png" class="btn-block">
-                    <div class="thumb-caption">
-                        <p class="no-margin">Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum</p>
-                        <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row text-center mb-20">
-            <div class="col-xs-12 hidden-lg hidden-md">
-                <nav aria-label="Page navigation" class="paging">
-                    <ul class="pagination">
-                        <li><a href="">First</a></li>
-                        <li><a href=""><i class="fas fa-chevron-left"></i></a></li>
-                        <li class="active"><a href="">1</a></li>
-                        <li><a href="">2</a></li>
-                        <li><a href="">3</a></li>
-                        <li><a href=""><i class="fas fa-chevron-right"></i></a></li>
-                        <li><a href="">Last</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="col-xs-12">
-                    <div class="row divider">
-                        <div class="col-xs-12">
-                            <h3 class="text-primary">Foto</h3>
+                    <div class="col-xs-12">
+                        <div class="row divider">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <h3 class="text-primary" id="videoSection">Video</h3>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hidden-sm hidden-xs">
+                                <nav aria-label="Page navigation" class="paging absolute">
+                                    <ul class="pagination">
+                                        <li><a href="">First</a></li>
+                                        <li><a href="">Previous</a></li>
+                                        <li class="active"><a href="">1</a></li>
+                                        <li><a href="">2</a></li>
+                                        <li><a href="">3</a></li>
+                                        <li><a href="">4</a></li>
+                                        <li><a href="">Next</a></li>
+                                        <li><a href="">Last</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="row mt-20">
-            <div class="col-xs-12">
-                <div class="slider js_multislides multislides">
-                    <div class="frame js_frame">
-                        <ul class="slides js_slides">
-                            <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
-                            <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
-                            <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
-                            <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
-                            <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
-                            <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
-                            <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
-                            <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
-                            <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
-                            <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
-                            <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
-                            <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
+            <div class="row mt-20">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 mb-15">
+                    <div class="v-thumb-item">
+                        <img src="img/02.png" class="btn-block">
+                        <div class="thumb-caption">
+                            <p class="no-margin">Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum</p>
+                            <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 mb-15">
+                    <div class="v-thumb-item">
+                        <img src="img/02.png" class="btn-block">
+                        <div class="thumb-caption">
+                            <p class="no-margin">Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum</p>
+                            <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 mb-15">
+                    <div class="v-thumb-item">
+                        <img src="img/02.png" class="btn-block">
+                        <div class="thumb-caption">
+                            <p class="no-margin">Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum</p>
+                            <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 mb-15">
+                    <div class="v-thumb-item">
+                        <img src="img/02.png" class="btn-block">
+                        <div class="thumb-caption">
+                            <p class="no-margin">Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum</p>
+                            <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 mb-15">
+                    <div class="v-thumb-item">
+                        <img src="img/02.png" class="btn-block">
+                        <div class="thumb-caption">
+                            <p class="no-margin">Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum</p>
+                            <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 mb-15">
+                    <div class="v-thumb-item">
+                        <img src="img/02.png" class="btn-block">
+                        <div class="thumb-caption">
+                            <p class="no-margin">Kisah Warga Pinggiran Situ Gunung Manfaatkan Air Selokan Untuk Minum</p>
+                            <p class="caption-date"><i class="far fa-clock"></i> 30/12/2018</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center mb-20">
+                <div class="col-xs-12 hidden-lg hidden-md">
+                    <nav aria-label="Page navigation" class="paging">
+                        <ul class="pagination">
+                            <li><a href="">First</a></li>
+                            <li><a href=""><i class="fas fa-chevron-left"></i></a></li>
+                            <li class="active"><a href="">1</a></li>
+                            <li><a href="">2</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href=""><i class="fas fa-chevron-right"></i></a></li>
+                            <li><a href="">Last</a></li>
                         </ul>
-                    </div>
+                    </nav>
+                </div>
+            </div>
 
-                    <span class="js_prev prev">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="col-xs-12">
+                        <div class="row divider">
+                            <div class="col-xs-12">
+                                <h3 class="text-primary" id="photoSection">Foto</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-20">
+                <div class="col-xs-12">
+                    <div class="slider js_multislides multislides">
+                        <div class="frame js_frame">
+                            <ul class="slides js_slides">
+                                <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
+                                <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
+                                <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
+                                <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
+                                <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
+                                <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
+                                <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
+                                <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
+                                <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
+                                <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
+                                <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
+                                <li class="js_slide"><img src="img/03.png" class="btn-block"></li>
+                            </ul>
+                        </div>
+
+                        <span class="js_prev prev">
                         <i class="fas fa-chevron-circle-left fa-2x text-white"></i>
                     </span>
 
-                    <span class="js_next next">
+                        <span class="js_next next">
                         <i class="fas fa-chevron-circle-right fa-2x text-white"></i>
                     </span>
+                    </div>
                 </div>
             </div>
-        </div>
 
+        </div>
     </div>
 
     <footer>
@@ -596,11 +598,11 @@
                             <tbody>
                             <tr>
                                 <td class="text-strong pr-20 hidden-xs">IKUTI KAMI</td>
-                                <td class="pr-10"><img src="assets/images/fb.png" class="sos-ico"></div>
-                                <td class="pr-10"><img src="assets/images/twitter.png" class="sos-ico"></div>
-                                <td class="pr-10"><img src="assets/images/pinterest.png" class="sos-ico"></div>
-                                <td class="pr-10"><img src="assets/images/instagram.png" class="sos-ico"></div>
-                                <td><img src="assets/images/g+.png" class="sos-ico"></div>
+                                <td class="pr-10"><img src="assets/images/fb.png" class="sos-ico"></td>
+                                <td class="pr-10"><img src="assets/images/twitter.png" class="sos-ico"></td>
+                                <td class="pr-10"><img src="assets/images/pinterest.png" class="sos-ico"></td>
+                                <td class="pr-10"><img src="assets/images/instagram.png" class="sos-ico"></td>
+                                <td><img src="assets/images/g+.png" class="sos-ico"></td>
                             </tr>
                             </tbody>
                         </table>
@@ -668,7 +670,7 @@
             </div>
         </div>
     </footer>
-
+</div>
 
 <!--Modal Register-->
 <div class="modal fade" id="modalRegister" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -810,8 +812,6 @@
     </div>
 </div>
 
-</div>
-
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="assets/js/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -819,59 +819,21 @@
 <script src="assets/js/pintu.js"></script>
 <script src="assets/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js"></script>
 <script src="assets/js/lory.min.js"></script>
-<script type="text/javascript">
-    $('.form_date').datetimepicker({
-        weekStart: 1,
-        todayBtn:  1,
-        autoclose: 1,
-        todayHighlight: 1,
-        startView: 2,
-        minView: 2,
-        forceParse: 0
+<script>
+    $("#article").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#articleSection").offset().top
+        }, 500);
     });
-
-    'use strict';
-
-    document.addEventListener('DOMContentLoaded', function () {
-        var multiSlides       = document.querySelector('.js_multislides');
-
-
-        function handleDotEvent(e) {
-            if (e.type === 'before.lory.init') {
-                for (var i = 0, len = dot_count; i < len; i++) {
-                    var clone = dot_list_item.cloneNode();
-                    dot_container.appendChild(clone);
-                }
-                dot_container.childNodes[0].classList.add('active');
-            }
-            if (e.type === 'after.lory.init') {
-                for (var i = 0, len = dot_count; i < len; i++) {
-                    dot_container.childNodes[i].addEventListener('click', function(e) {
-                        dot_navigation_slider.slideTo(Array.prototype.indexOf.call(dot_container.childNodes, e.target));
-                    });
-                }
-            }
-            if (e.type === 'after.lory.slide') {
-                for (var i = 0, len = dot_container.childNodes.length; i < len; i++) {
-                    dot_container.childNodes[i].classList.remove('active');
-                }
-                dot_container.childNodes[e.detail.currentSlide - 1].classList.add('active');
-            }
-            if (e.type === 'on.lory.resize') {
-                for (var i = 0, len = dot_container.childNodes.length; i < len; i++) {
-                    dot_container.childNodes[i].classList.remove('active');
-                }
-                dot_container.childNodes[0].classList.add('active');
-            }
-        }
-
-
-        lory(multiSlides, {
-            infinite: 1,
-            slidesToScroll: 1,
-            enableMouseEvents: true
-        });
-
+    $("#video").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#videoSection").offset().top
+        }, 500);
+    });
+    $("#photo").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#photoSection").offset().top
+        }, 500);
     });
 </script>
 </body>
