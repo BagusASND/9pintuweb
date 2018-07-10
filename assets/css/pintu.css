@@ -185,6 +185,9 @@ a.text-white:hover{
 .main-product-home{
     height: 220px;
 }
+.main-product-home img.main{
+    height: 218px;
+}
 .main-product-home p{
     overflow: hidden;
     display: -webkit-box;
@@ -194,6 +197,9 @@ a.text-white:hover{
 .list-item-home{
     height: 110px;
     padding: 0;
+}
+.list-item-home img.items{
+    height: 108px;
 }
 .list-item-home p{
     overflow: hidden;
@@ -393,6 +399,11 @@ footer .socmed-ic{
     height: 40px;
     background-color: #dddddd;
 }
+footer .payment-section li:first-child{
+    height: 46px;
+    vertical-align: top;
+    padding-top: 10px;
+}
 
 .article-hglg-m span.badge-tt{
     position: absolute;
@@ -400,7 +411,38 @@ footer .socmed-ic{
     top: 0;
 }
 
+.share-art-btn{
+    font-size: 9px;
+    padding: 1px 6px;
+    border-radius: 1px;
+    -moz-border-radius:    1px;
+    -webkit-border-radius: 1px;
+    box-shadow: 0 0 1px #171717;
+}
+.callout {
+    background: #137774;
+    position: relative;
+    margin-right: 3px;
+}
+.callout:before {
+    content: "";
+    position: absolute;
+    right: -3px;
+    top: 5px;
+    width: 0;
+    height: 0;
+    border-top: 2px solid transparent;
+    border-left: 3px solid #137774;
+    border-bottom: 2px solid transparent;
+}
+
+
+
 @media (max-width: 767px) {
+    .pr-xs{
+        padding-right: 15px;
+    }
+
     .mobile-header{
         position: absolute;
         background-color: #31c1bc;
@@ -490,6 +532,17 @@ footer .socmed-ic{
     }
     .main-product-home{
         height: auto;
+    }
+    .list-item-home{
+        height: auto;
+        padding: 5px;
+    }
+    .main-product-home img.main, .list-item-home img.items{
+        height: auto;
+    }
+    .list-item-home img.items{
+        max-height: 70px;
+        margin: auto;
     }
 
     .v-thumb-item .thumb-caption{

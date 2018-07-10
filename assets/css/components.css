@@ -672,6 +672,10 @@ nav.paging ul li.active a{
 .bg-muted{
     background-color: #FAFAFA;
 }
+.bg-fb{background-color: #425993}
+.bg-twitter{background-color: #4FAAE8}
+.bg-linkedin{background-color: #367AB0}
+.bg-gplus{background-color: #AD2422}
 
 .sos-ico{
     width: 35px;
