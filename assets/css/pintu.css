@@ -356,6 +356,11 @@ a.text-white:hover{
     border-top: none;
 }
 
+.off-sort ul li{
+    width: 3.60%;
+    text-align: center;
+}
+
 /*Footer*/
 
 footer{
@@ -552,6 +557,14 @@ footer .payment-section li:first-child{
     .travel-form{
         padding-left: 15px;
     }
+    .label-murah{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .label-murah img{
+        width: 75px;
+    }
     footer .payment-ic{
         width: auto;
     }
@@ -689,9 +702,7 @@ footer .payment-section li:first-child{
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .v-thumb {
-        height: 149px;
-    }
+
     .list-group-item {
         padding: 11px 15px;
     }
@@ -702,6 +713,13 @@ footer .payment-section li:first-child{
 }
 
 @media (min-width: 992px) {
+    .v-thumb {
+        height: 160px;
+    }
+    .main-slider{
+        height: 366px!important;
+        width: 100%;
+    }
     .content{
         margin-top: 145px;
         width: 100%;
