@@ -132,9 +132,9 @@
         <nav class="hidden-xs sub-nav">
             <div class="container">
                 <ul class="nav nav-tabs">
-                    <li><a id="article" class="cursor-pointer">Artikel</a></li>
-                    <li><a id="video" class="cursor-pointer">Video</a></li>
-                    <li><a id="photo" class="cursor-pointer">Foto</a></li>
+                    <li><a href="#artikel" class="cursor-pointer scrollink">Artikel</a></li>
+                    <li><a href="#video" class="cursor-pointer scrollink">Video</a></li>
+                    <li><a href="#foto" class="cursor-pointer scrollink">Foto</a></li>
                 </ul>
             </div>
         </nav>
@@ -195,7 +195,8 @@
                             <div class="col-xs-12">
                                 <div class="row divider">
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                        <h3 class="text-primary" id="articleSection">Artikel</h3>
+                                        <span class="anchor" id="artikel"></span>
+                                        <h3 class="text-primary">Artikel</h3>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hidden-sm hidden-xs">
                                         <nav aria-label="Page navigation" class="paging absolute">
@@ -432,7 +433,8 @@
                     <div class="col-xs-12">
                         <div class="row divider">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <h3 class="text-primary" id="videoSection">Video</h3>
+                                <span class="anchor" id="video"></span>
+                                <h3 class="text-primary">Video</h3>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hidden-sm hidden-xs">
                                 <nav aria-label="Page navigation" class="paging absolute">
@@ -529,7 +531,8 @@
                     <div class="col-xs-12">
                         <div class="row divider">
                             <div class="col-xs-12">
-                                <h3 class="text-primary" id="photoSection">Foto</h3>
+                                <span class="anchor" id="foto"></span>
+                                <h3 class="text-primary">Foto</h3>
                             </div>
                         </div>
                     </div>
@@ -857,22 +860,5 @@
 <script src="assets/js/pintu.js"></script>
 <script src="assets/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js"></script>
 <script src="assets/js/lory.min.js"></script>
-<script>
-    $("#article").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#articleSection").offset().top
-        }, 500);
-    });
-    $("#video").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#videoSection").offset().top
-        }, 500);
-    });
-    $("#photo").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#photoSection").offset().top
-        }, 500);
-    });
-</script>
 </body>
 </html>

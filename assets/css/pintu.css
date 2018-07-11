@@ -361,6 +361,33 @@ a.text-white:hover{
     text-align: center;
 }
 
+.anchor{
+    display: block;
+    height: 180px; /*make scroll div stay under fixed header*/
+    margin-top: -180px;
+    visibility: hidden;
+}
+
+.mitra-items{
+    margin: 20px -5px;
+}
+.list-mitra{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    width: 13.18%;
+    padding: 10px;
+}
+.list-mitra p{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    margin-top: 5px;
+    text-align: center;
+}
+
 /*Footer*/
 
 footer{
@@ -439,6 +466,14 @@ footer .payment-section li:first-child{
     border-top: 2px solid transparent;
     border-left: 3px solid #137774;
     border-bottom: 2px solid transparent;
+}
+
+.mitra-input{
+    border: solid 1px #dddddd;
+}
+.mitra-input .input-group-addon{
+    background-color: transparent;
+    border: none;
 }
 
 
@@ -565,6 +600,13 @@ footer .payment-section li:first-child{
     .label-murah img{
         width: 75px;
     }
+
+    .anchor{
+        height: 55px; /*make scroll div stay under fixed header*/
+        margin-top: -55px;
+        display: block;
+        visibility: hidden;
+    }
     footer .payment-ic{
         width: auto;
     }
@@ -572,9 +614,30 @@ footer .payment-section li:first-child{
     .middle-section.media{
         margin-top: 73px;
     }
+    .off-sort ul li {
+        width: 9.6%;
+    }
+    .list-mitra{
+        width: 46%;
+    }
+    .mitra-input{
+        margin-top: 20px;
+    }
     
 }
 @media (min-width: 768px) and (max-width: 991px) {
+    .content{
+        margin-top: 225px;
+    }
+    .content.with-breadcrumb{
+        margin-top: 275px;
+    }
+    .anchor {
+        display: block;
+        height: 260px;
+        margin-top: -260px;
+        visibility: hidden;
+    }
     .top-group{
         height: 81px;
     }
@@ -620,6 +683,10 @@ footer .payment-section li:first-child{
     }
     .middle-section{
         margin-top: 249px;
+    }
+
+    .list-mitra{
+        width: 14.98%;
     }
 }
 @media (max-width: 991px) {

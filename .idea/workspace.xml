@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd6f48c-7b66-4464-850a-68ff82b7d6a2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/official-mitra.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/article-detail.html" afterPath="$PROJECT_DIR$/article-detail.html" />
       <change beforePath="$PROJECT_DIR$/assets/css/pintu.css" afterPath="$PROJECT_DIR$/assets/css/pintu.css" />
-      <change beforePath="$PROJECT_DIR$/img/image-thumbnail.jpg" afterPath="$PROJECT_DIR$/img/image-thumbnail.jpg" />
-      <change beforePath="$PROJECT_DIR$/img/minyak-heboh.png" afterPath="$PROJECT_DIR$/img/minyak-heboh.png" />
-      <change beforePath="$PROJECT_DIR$/img/minyak-laris.png" afterPath="$PROJECT_DIR$/img/minyak-laris.png" />
-      <change beforePath="$PROJECT_DIR$/img/umroh.png" afterPath="$PROJECT_DIR$/img/umroh.png" />
-      <change beforePath="$PROJECT_DIR$/img/video-thumbnail.png" afterPath="$PROJECT_DIR$/img/video-thumbnail.png" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/assets/js/pintu.js" afterPath="$PROJECT_DIR$/assets/js/pintu.js" />
       <change beforePath="$PROJECT_DIR$/media.html" afterPath="$PROJECT_DIR$/media.html" />
+      <change beforePath="$PROJECT_DIR$/official-mitra.html" afterPath="$PROJECT_DIR$/official-mitra.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,30 +20,50 @@
       <file leaf-file-name="components.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/components.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
+            <state relative-caret-position="0">
               <caret line="677" column="35" lean-forward="false" selection-start-line="677" selection-start-column="35" selection-end-line="677" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pintu.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pintu.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/pintu.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="360" column="22" lean-forward="false" selection-start-line="360" selection-start-column="22" selection-end-line="360" selection-end-column="22" />
+            <state relative-caret-position="593">
+              <caret line="639" column="5" lean-forward="false" selection-start-line="639" selection-start-column="5" selection-end-line="639" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="official-mitra.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="official-mitra.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/official-mitra.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-265">
-              <caret line="167" column="98" lean-forward="true" selection-start-line="167" selection-start-column="98" selection-end-line="167" selection-end-column="98" />
+            <state relative-caret-position="395">
+              <caret line="143" column="93" lean-forward="false" selection-start-line="143" selection-start-column="93" selection-end-line="143" selection-end-column="93" />
               <folding>
+                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#7;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="media.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/media.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="584">
+              <caret line="861" column="45" lean-forward="false" selection-start-line="861" selection-start-column="45" selection-end-line="861" selection-end-column="45" />
+              <folding>
+                <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -71,21 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidenav.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/sidenav.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pintu.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/pintu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="81">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -97,11 +101,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>text-ur</find>
-      <find>lihat s</find>
-      <find>tt-item</find>
-      <find>paging</find>
-      <find>pagin</find>
       <find>js-</find>
       <find>55</find>
       <find>multiple sli</find>
@@ -109,9 +108,7 @@
       <find>btn</find>
       <find>Video</find>
       <find>photo</find>
-      <find>foto</find>
       <find>informs</find>
-      <find>artikel</find>
       <find>article-hglg-m</find>
       <find>payment-metho</find>
       <find>tb-pay</find>
@@ -127,6 +124,13 @@
       <find>cnb</find>
       <find>bg-</find>
       <find>min-wi</find>
+      <find>media</find>
+      <find>artike;l</find>
+      <find>Artike</find>
+      <find>vide</find>
+      <find>foto</find>
+      <find>video</find>
+      <find>artikel</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -139,14 +143,14 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/assets/css/lory-slide.css" />
         <option value="$PROJECT_DIR$/assets/css/sidenav.css" />
-        <option value="$PROJECT_DIR$/assets/js/pintu.js" />
         <option value="$PROJECT_DIR$/list-trending.html" />
         <option value="$PROJECT_DIR$/assets/css/components.css" />
-        <option value="$PROJECT_DIR$/media.html" />
         <option value="$PROJECT_DIR$/article-detail.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/css/pintu.css" />
+        <option value="$PROJECT_DIR$/media.html" />
+        <option value="$PROJECT_DIR$/assets/js/pintu.js" />
         <option value="$PROJECT_DIR$/official-mitra.html" />
+        <option value="$PROJECT_DIR$/assets/css/pintu.css" />
       </list>
     </option>
   </component>
@@ -178,7 +182,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,6 +209,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,28 +254,29 @@
       <workItem from="1530761142498" duration="5756000" />
       <workItem from="1530850174260" duration="12144000" />
       <workItem from="1531104160514" duration="19221000" />
-      <workItem from="1531185395958" duration="11403000" />
+      <workItem from="1531185395958" duration="11473000" />
+      <workItem from="1531286467595" duration="5795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66000000" />
+    <option name="totallyTimeSpent" value="71865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2048" height="1065" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14656033" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14805584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21752578" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -294,6 +299,72 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/css/components.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10832">
+          <caret line="677" column="35" lean-forward="false" selection-start-line="677" selection-start-column="35" selection-end-line="677" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/pintu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5760">
+          <caret line="360" column="22" lean-forward="false" selection-start-line="360" selection-start-column="22" selection-end-line="360" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="328" column="71" lean-forward="false" selection-start-line="328" selection-start-column="71" selection-end-line="328" selection-end-column="71" />
+          <folding>
+            <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/sidenav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/pintu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/official-mitra.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2672">
+          <caret line="167" column="98" lean-forward="true" selection-start-line="167" selection-start-column="98" selection-end-line="167" selection-end-column="98" />
+          <folding>
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/components.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9216">
           <caret line="576" column="10" lean-forward="false" selection-start-line="576" selection-start-column="10" selection-end-line="576" selection-end-column="10" />
           <folding />
@@ -314,8 +385,6 @@
           <caret line="216" column="113" lean-forward="true" selection-start-line="216" selection-start-column="74" selection-end-line="216" selection-end-column="113" />
           <folding>
             <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -334,12 +403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2496">
           <caret line="156" column="58" lean-forward="false" selection-start-line="156" selection-start-column="58" selection-end-line="156" selection-end-column="58" />
-          <folding>
-            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#27213#27220#1" expanded="false" />
-            <element signature="e#30194#30201#1" expanded="false" />
-            <element signature="e#33230#33237#1" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -350,6 +413,8 @@
           <folding>
             <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -396,6 +461,8 @@
           <folding>
             <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -442,6 +509,8 @@
           <folding>
             <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -462,6 +531,8 @@
           <folding>
             <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -490,6 +561,8 @@
           <folding>
             <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -518,6 +591,8 @@
           <folding>
             <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -560,16 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/pintu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list-trending.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -590,15 +655,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media.html">
+    <entry file="file://$PROJECT_DIR$/article-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="413" column="77" lean-forward="false" selection-start-line="413" selection-start-column="77" selection-end-line="413" selection-end-column="77" />
-          <folding>
-            <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="259" column="46" lean-forward="true" selection-start-line="259" selection-start-column="46" selection-end-line="259" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/components.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="677" column="35" lean-forward="false" selection-start-line="677" selection-start-column="35" selection-end-line="677" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -606,27 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/article-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="259" column="46" lean-forward="true" selection-start-line="259" selection-start-column="46" selection-end-line="259" selection-end-column="46" />
-          <folding>
-            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#27213#27220#1" expanded="false" />
-            <element signature="e#30194#30201#1" expanded="false" />
-            <element signature="e#33230#33237#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/components.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="677" column="35" lean-forward="false" selection-start-line="677" selection-start-column="35" selection-end-line="677" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -645,21 +692,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/pintu.css">
+    <entry file="file://$PROJECT_DIR$/assets/js/pintu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="360" column="22" lean-forward="false" selection-start-line="360" selection-start-column="22" selection-end-line="360" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="81">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="861" column="45" lean-forward="false" selection-start-line="861" selection-start-column="45" selection-end-line="861" selection-end-column="45" />
+          <folding>
+            <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/official-mitra.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-265">
-          <caret line="167" column="98" lean-forward="true" selection-start-line="167" selection-start-column="98" selection-end-line="167" selection-end-column="98" />
+        <state relative-caret-position="395">
+          <caret line="143" column="93" lean-forward="false" selection-start-line="143" selection-start-column="93" selection-end-line="143" selection-end-column="93" />
           <folding>
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/pintu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="639" column="5" lean-forward="false" selection-start-line="639" selection-start-column="5" selection-end-line="639" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
