@@ -388,6 +388,51 @@ a.text-white:hover{
     text-align: center;
 }
 
+.article-hglg-m span.badge-tt{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.share-art-btn{
+    font-size: 9px;
+    padding: 1px 6px;
+    border-radius: 1px;
+    -moz-border-radius:    1px;
+    -webkit-border-radius: 1px;
+    box-shadow: 0 0 1px #171717;
+}
+.callout {
+    background: #137774;
+    position: relative;
+    margin-right: 3px;
+}
+.callout:before {
+    content: "";
+    position: absolute;
+    right: -3px;
+    top: 5px;
+    width: 0;
+    height: 0;
+    border-top: 2px solid transparent;
+    border-left: 3px solid #137774;
+    border-bottom: 2px solid transparent;
+}
+
+.mitra-input{
+    border: solid 1px #dddddd;
+}
+.mitra-input .input-group-addon{
+    background-color: transparent;
+    border: none;
+}
+.img-profile-mitra{
+    position: absolute;
+    top: -110px;
+    left: 0;
+    width: 90%;
+}
+
 /*Footer*/
 
 footer{
@@ -435,45 +480,6 @@ footer .payment-section li:first-child{
     height: 46px;
     vertical-align: top;
     padding-top: 10px;
-}
-
-.article-hglg-m span.badge-tt{
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.share-art-btn{
-    font-size: 9px;
-    padding: 1px 6px;
-    border-radius: 1px;
-    -moz-border-radius:    1px;
-    -webkit-border-radius: 1px;
-    box-shadow: 0 0 1px #171717;
-}
-.callout {
-    background: #137774;
-    position: relative;
-    margin-right: 3px;
-}
-.callout:before {
-    content: "";
-    position: absolute;
-    right: -3px;
-    top: 5px;
-    width: 0;
-    height: 0;
-    border-top: 2px solid transparent;
-    border-left: 3px solid #137774;
-    border-bottom: 2px solid transparent;
-}
-
-.mitra-input{
-    border: solid 1px #dddddd;
-}
-.mitra-input .input-group-addon{
-    background-color: transparent;
-    border: none;
 }
 
 
@@ -792,7 +798,7 @@ footer .payment-section li:first-child{
         width: 100%;
     }
     .content.with-breadcrumb{
-        margin-top: 195px;
+        margin-top: 175px;
     }
     .donation-box{
         padding-left: 0;
