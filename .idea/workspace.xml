@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dcd6f48c-7b66-4464-850a-68ff82b7d6a2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/article-detail.html" afterPath="$PROJECT_DIR$/article-detail.html" />
-      <change beforePath="$PROJECT_DIR$/assets/css/pintu.css" afterPath="$PROJECT_DIR$/assets/css/pintu.css" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/list-trending.html" afterPath="$PROJECT_DIR$/list-trending.html" />
-      <change beforePath="$PROJECT_DIR$/media.html" afterPath="$PROJECT_DIR$/media.html" />
       <change beforePath="$PROJECT_DIR$/mitra-page.html" afterPath="$PROJECT_DIR$/mitra-page.html" />
-      <change beforePath="$PROJECT_DIR$/official-mitra.html" afterPath="$PROJECT_DIR$/official-mitra.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,8 +27,8 @@
       <file leaf-file-name="mitra-page.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mitra-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="153" column="44" lean-forward="false" selection-start-line="153" selection-start-column="44" selection-end-line="153" selection-end-column="44" />
+            <state relative-caret-position="330">
+              <caret line="170" column="26" lean-forward="true" selection-start-line="170" selection-start-column="26" selection-end-line="170" selection-end-column="26" />
               <folding>
                 <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -70,7 +64,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>btn</find>
       <find>Video</find>
       <find>photo</find>
       <find>informs</find>
@@ -100,6 +93,7 @@
       <find>modal regi</find>
       <find>modal reg</find>
       <find>content m-c</find>
+      <find>scro</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,8 +114,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/article-detail.html" />
         <option value="$PROJECT_DIR$/media.html" />
-        <option value="$PROJECT_DIR$/mitra-page.html" />
         <option value="$PROJECT_DIR$/assets/css/pintu.css" />
+        <option value="$PROJECT_DIR$/mitra-page.html" />
       </list>
     </option>
   </component>
@@ -212,12 +206,12 @@
       <workItem from="1531185395958" duration="11473000" />
       <workItem from="1531286467595" duration="5875000" />
       <workItem from="1531373513010" duration="2578000" />
-      <workItem from="1531390544877" duration="1813000" />
+      <workItem from="1531390544877" duration="3045000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76336000" />
+    <option name="totallyTimeSpent" value="77568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2048" height="1065" extended-state="0" />
@@ -724,20 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="999" column="106" lean-forward="false" selection-start-line="999" selection-start-column="106" selection-end-line="999" selection-end-column="106" />
-          <folding>
-            <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/article-detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="671">
@@ -756,6 +736,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="577" column="26" lean-forward="true" selection-start-line="577" selection-start-column="26" selection-end-line="577" selection-end-column="26" />
+          <folding>
+            <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#header#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/pintu.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="543">
@@ -766,8 +760,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mitra-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="153" column="44" lean-forward="false" selection-start-line="153" selection-start-column="44" selection-end-line="153" selection-end-column="44" />
+        <state relative-caret-position="330">
+          <caret line="170" column="26" lean-forward="true" selection-start-line="170" selection-start-column="26" selection-end-line="170" selection-end-column="26" />
           <folding>
             <element signature="n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
