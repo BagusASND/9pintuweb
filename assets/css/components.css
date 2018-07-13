@@ -715,3 +715,24 @@ nav.paging ul li.active a{
     margin-bottom: 0;
     padding: 15px 0;
 }
+
+.nav-tabs{
+    border-bottom: none;
+}
+.nav-tabs li{
+    font-weight: bold;
+}
+.nav-tabs li a:hover{
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+}
+.nav-tabs li.active a{
+    color: #258c87!important;
+    font-weight: bold;
+    border: solid 3px!important;
+    border-bottom-color: #258c87!important;
+    border-left: none!important;
+    border-right: none!important;
+    border-top: none!important;
+}

@@ -629,6 +629,25 @@ footer .payment-section li:first-child{
     .mitra-input{
         margin-top: 20px;
     }
+
+    .img-profile-mitra {
+        position: initial;
+        width: 80px;
+        margin: auto;
+    }
+    .scrolling-wrapper.m-scrolling{
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .scrolling-wrapper .slide-tab{
+        overflow-x: auto;
+        overflow-y: hidden;
+        display: -moz-box;
+        display: -webkit-box;
+    }
+    .scrolling-wrapper .slide-tab li{
+        float: none;
+    }
     
 }
 @media (min-width: 768px) and (max-width: 991px) {
