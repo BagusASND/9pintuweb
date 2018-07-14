@@ -736,3 +736,7 @@ nav.paging ul li.active a{
     border-right: none!important;
     border-top: none!important;
 }
+
+.border-divider{
+    border-bottom: solid 10px #dddddd;
+}

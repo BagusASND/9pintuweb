@@ -79,6 +79,11 @@ a.text-white:hover{
 
 
 /*List Group*/
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+    background-color: transparent;
+    border-color: #dddddd;
+    color: #137774;
+}
 .list-tt .list-group-item {
     font-size: 12px;
     border-radius: 0px;
@@ -635,17 +640,17 @@ footer .payment-section li:first-child{
         width: 80px;
         margin: auto;
     }
-    .scrolling-wrapper.m-scrolling{
+    .m-scrolling{
         margin-left: -15px;
         margin-right: -15px;
     }
-    .scrolling-wrapper .slide-tab{
+    .m-scrolling .slide-tab{
         overflow-x: auto;
         overflow-y: hidden;
         display: -moz-box;
         display: -webkit-box;
     }
-    .scrolling-wrapper .slide-tab li{
+    .m-scrolling .slide-tab li{
         float: none;
     }
     
