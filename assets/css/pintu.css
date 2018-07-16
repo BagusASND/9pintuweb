@@ -450,6 +450,14 @@ a.text-white:hover{
     width: 90%;
 }
 
+.m-account ul li{
+    background-color: transparent;
+}
+
+.light-blue{color: #4C8CC9}
+.light-green{color: #6CC380}
+.light-red{color: #E26762}
+
 /*Footer*/
 
 footer{

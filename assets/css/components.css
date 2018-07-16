@@ -581,6 +581,34 @@ nav.paging ul li.active a{
     border-radius: 50%;
 }
 
+.primary-dropdown button{
+    height: 38px;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    margin-top: -4px;
+}
+.primary-dropdown ul li{
+    padding: 12px 8px;
+    position: relative;
+}
+.primary-dropdown ul li .absolute{
+    position: absolute;
+    top: 18px;
+}
+.primary-dropdown ul li a{
+    color: #8c8989;
+}
+.primary-dropdown ul li span{
+    padding-left: 25px;
+}
+.primary-dropdown ul li:hover{
+    background-color: #dddddd;
+}
+.primary-dropdown ul li a:hover{
+    background-color: transparent;
+}
+
 /*Form*/
 .form-control, .input-group-addon {
     border-radius: 0;
