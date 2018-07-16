@@ -520,6 +520,9 @@ Tools*/
 .no-margin {
     margin: 0
 }
+.margin-auto{
+    margin: auto;
+}
 
 .w-100 {
     width: 100px;
