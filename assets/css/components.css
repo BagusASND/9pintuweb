@@ -529,6 +529,11 @@ Tools*/
     width: 200px;
 }
 
+.item-row{
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
 /*Navigation*/
 nav {
     background-color: #137774;

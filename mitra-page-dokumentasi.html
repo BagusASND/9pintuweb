@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Home - 9 Pintu</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link href="assets/css/components.css" rel="stylesheet">
+    <link href="assets/css/pintu.css" rel="stylesheet">
+    <link href="assets/css/sidenav.css" rel="stylesheet">
+    <link href="assets/css/lory-slide.css" rel="stylesheet">
+
+    <link href="assets/css/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+
+    <link href="assets/fonts/fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--Side Navigation-->
+<div id="pintuSideNav" class="sidenav">
+    <div class="closebtn">
+        <a href="javascript:void(0)" onclick="closeNav()"><i class="far fa-times-circle"></i></a>
+    </div>
+    <div class="head-nav">
+        <a href="" data-toggle="modal" data-target="#modalLogin" data-dismiss="modal">Masuk/Daftar</a>
+    </div>
+    <div class="menu-item">
+        <a href="index.html" class="item">Beranda</a>
+        <a href="#" class="item">Media</a>
+        <a href="#" class="item">Berbagi Rezeki</a>
+        <a href="#" class="item">Travel Syariah</a>
+        <a href="#" class="item">Belanja</a>
+        <a href="#" class="item">Official Mitra</a>
+        <a href="#" class="item">Silaturahmi</a>
+    </div>
+</div>
+<!--End Side Navigation-->
+
+<div class="container-fluid no-padding">
+    <header class="mobile-header hidden-sm hidden-md hidden-lg">
+        <div class="container">
+            <div class="row">
+                <div class="top-group">
+                    <div class="col-xs-2 mt-5">
+                        <span class="btn-nav text-white" onclick="openNav()"><i class="fas fa-bars fa-2x"></i></span>
+                    </div>
+                    <div class="col-xs-8">
+                        <img src="assets/images/dummy-logo.png" class="img-responsive logo-m">
+                    </div>
+                    <div class="col-xs-2 text-right sign-btn-group">
+                        <a href=""><span class="btn-cart text-white"><i class="fas fa-shopping-cart fa-2x"></i></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-10 pb-10" id="rowSearch">
+                <div class="col-xs-12 v-head-middle">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Cari disini..." aria-describedby="basic-addon2">
+                        <span class="input-group-addon bg-primary" id="basic-addon2"><a href=""><i class="fas fa-search"></i> <span class="" id="icSearch">Cari</span></a> </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="header-desktop hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="top-group">
+                    <div class="col-lg-2 col-md-2 col-sm-3 text-center">
+                        <a href="index.html"><img src="assets/images/dummy-logo.png" class="img-responsive"></a>
+                    </div>
+                    <div class="col-sm-9 hidden-lg hidden-md text-right sign-btn-group">
+                        <div class="row">
+                            <div class="col-sm-8 text-right">
+                                <a href=""><span class="text-white"><i class="fas fa-shopping-cart fa-2x"></i></span></a>
+                            </div>
+                            <div class="col-sm-2 pr-5">
+                                <button class="btn btn-white-outline btn-block" data-toggle="modal" data-target="#modalLogin">Masuk</button>
+                            </div>
+                            <div class="col-sm-2 pl-5">
+                                <button class="btn btn-white btn-block" data-toggle="modal" data-target="#modalRegister">Daftar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12 v-head-middle">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Cari disini..." aria-describedby="basic-addon2">
+                        <span class="input-group-addon bg-primary" id="basic-addon2"><a href=""><i class="fas fa-search"></i> Cari</a> </span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 hidden-sm text-right v-head-middle">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2">
+                            <a href=""><span class="text-white"><i class="fas fa-shopping-cart fa-2x"></i></span></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 pr-5">
+                            <button class="btn btn-white-outline btn-block" data-toggle="modal" data-target="#modalLogin">Masuk</button>
+                        </div>
+                        <div class="col-lg-5 col-md-5 pl-5">
+                            <button class="btn btn-white btn-block" data-toggle="modal" data-target="#modalRegister">Daftar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="hidden-xs">
+            <div class="container">
+                <ul class="nav nav-justified nav-main-menu">
+                    <li><a href="#">Media</a></li>
+                    <li><a href="#">Berbagi Rezeki</a></li>
+                    <li><a href="#">Travel Syariah</a></li>
+                    <li><a href="#">Belanja</a></li>
+                    <li class="active"><a href="#">Official Mitra</a></li>
+                    <li><a href="#">Silaturahmi</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="hidden-xs sub-nav">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="official-mitra.html">Official Mitra</a></li>
+                    <li class="active">Halaman Mitra</li>
+                </ol>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid no-padding content with-breadcrumb m-container">
+        <img src="img/profile-dashboard.jpg" class="btn-block hidden-xs">
+        <div class="mitra-page divider pb-50">
+            <div class="container mt-20">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                        <img src="img/dummy-image-square.jpg" class="img-responsive img-circle img-profile-mitra">
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                        <h3 class="no-margin hidden-xs">Ponpes Muhammadiyah wal At Taqwa</h3>
+                        <h5 class="hidden-lg hidden-md hidden-sm text-center">Ponpes Muhammadiyah wal At Taqwa</h5>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs">
+                        <button type="button" class="btn btn-default btn-block has-radius"><i class="fas fa-plus"></i> ikuti</button>
+                    </div>
+                    <div class="col-xs-4 col-xs-offset-4 hidden-sm hidden-md hidden-lg">
+                        <button type="button" class="btn btn-default btn-block has-radius"><i class="fas fa-plus"></i> ikuti</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid no-padding border-divider">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="m-scrolling">
+                            <ul class="nav nav-tabs slide-tab">
+                                <li><a href="mitra-page-media.html">Media Galeri</a></li>
+                                <li class="active"><a href="#">Dokumentasi</a></li>
+                                <li><a href="mitra-page-ecommerce.html">E-Commerce</a></li>
+                                <li><a href="mitra-page-profil.html">Profil</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="row divider no-margin">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <h3 class="text-primary">Foto Kegiatan Kami</h3>
+                        </div>
+                        <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
+                            <nav aria-label="Page navigation" class="paging absolute">
+                                <ul class="pagination">
+                                    <li><a href="">First</a></li>
+                                    <li><a href="">Previous</a></li>
+                                    <li class="active"><a href="">1</a></li>
+                                    <li><a href="">2</a></li>
+                                    <li><a href="">3</a></li>
+                                    <li><a href="">4</a></li>
+                                    <li><a href="">Next</a></li>
+                                    <li><a href="">Last</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 mt-20">
+                    <div class="row item-row">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 pl-5 pr-5 mb-10">
+                            <img src="img/desa.png" class="img-responsive">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 pl-5 pr-5 mb-10">
+                            <img src="img/desa.png" class="img-responsive">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 pl-5 pr-5 mb-10">
+                            <img src="img/desa.png" class="img-responsive">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 pl-5 pr-5 mb-10">
+                            <img src="img/desa.png" class="img-responsive">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 pl-5 pr-5 mb-10">
+                            <img src="img/desa.png" class="img-responsive">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 pl-5 pr-5 mb-10">
+                            <img src="img/desa.png" class="img-responsive">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 pl-5 pr-5 mb-10">
+                            <img src="img/desa.png" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 hidden-lg hidden-md">
+                    <nav aria-label="Page navigation" class="paging text-center">
+                        <ul class="pagination">
+                            <li><a href="">First</a></li>
+                            <li><a href=""><i class="fas fa-chevron-left"></i></a></li>
+                            <li class="active"><a href="">1</a></li>
+                            <li><a href="">2</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href=""><i class="fas fa-chevron-right"></i></a></li>
+                            <li><a href="">Last</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row mt-30">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <div class="row hidden-lg hidden-md hidden-sm mb-10">
+                        <div class="col-xs-12">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="index.html">
+                                        <img src="assets/images/dummy-logo.png" class="w-100">
+                                    </a>
+                                </div>
+                                <div class="media-body media-middle">
+                                    <p class="mb-0 text-sm"><span>Layanan Pelanggan</span> <span class="text-strong"><i class="fas fa-phone-volume mr-5"></i> 1500-999</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row sitemap">
+                        <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs text-center">
+                            <img src="assets/images/dummy-logo.png" class="img-responsive">
+                            <p class="mb-0 text-sm">Layanan Pelanggan</p>
+                            <p class="text-strong"><i class="fas fa-phone-volume mr-5"></i> 1500-999</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <ul class="list-group">
+                                <li class="list-group-item text-strong">TENTANG 9PINTU</li>
+                                <li class="list-group-item"><a href="#">Apa itu 9pintu?</a></li>
+                                <li class="list-group-item"><a href="#">Testimonial Mitra</a></li>
+                                <li class="list-group-item"><a href="#">Program Affiliasi</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <ul class="list-group">
+                                <li class="list-group-item text-strong">BANTUAN</li>
+                                <li class="list-group-item"><a href="#">Hubungi Kami</a></li>
+                                <li class="list-group-item"><a href="#">Cara Pembelian</a></li>
+                                <li class="list-group-item"><a href="#">Cara Pembayaran</a></li>
+                                <li class="list-group-item"><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <ul class="list-group">
+                                <li class="list-group-item text-strong">PRODUK</li>
+                                <li class="list-group-item"><a href="#">Berbagi Rezeki</a></li>
+                                <li class="list-group-item"><a href="#">Travel Syariah</a></li>
+                                <li class="list-group-item"><a href="#">Belanja</a></li>
+                                <li class="list-group-item"><a href="#">Official Store</a></li>
+                                <li class="list-group-item"><a href="#">Silaturohmi</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <p class="text-strong">SUBSCRIBE</p>
+                    <div class="input-group mb-15">
+                        <input type="text" class="form-control" placeholder="Masukkan email Anda" aria-describedby="basic-addon2">
+                        <span class="input-group-addon bg-primary text-white" id="basic-addon3">OK</span>
+                    </div>
+                    <p>Segera subscribe untuk mendapatkan informasi dan promo menarik dari 9pintu.</p>
+                    <div class="mt-20">
+                        <p class="text-strong hidden-lg hidden-md hidden-sm">IKUTI KAMI</p>
+                        <table class="btn-block mb-10">
+                            <tbody>
+                            <tr>
+                                <td class="text-strong pr-20 hidden-xs">IKUTI KAMI</td>
+                                <td class="pr-10"><img src="assets/images/fb.png" class="sos-ico"></td>
+                                <td class="pr-10"><img src="assets/images/twitter.png" class="sos-ico"></td>
+                                <td class="pr-10"><img src="assets/images/pinterest.png" class="sos-ico"></td>
+                                <td class="pr-10"><img src="assets/images/instagram.png" class="sos-ico"></td>
+                                <td><img src="assets/images/g+.png" class="sos-ico"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="payment-method-section">
+            <div class="container hidden-xs hidden-sm">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <ul class="list-inline payment-section">
+                            <li class="text-strong">METODE PEMBAYARAN</li>
+                            <li><img class="img-responsive" src="assets/images/Klikpay.png"></li>
+                            <li><img class="img-responsive" src="assets/images/Visa.png"></li>
+                            <li><img class="img-responsive" src="assets/images/Alfamart.png"></li>
+                            <li><img class="img-responsive" src="assets/images/Indomaret.png"></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <ul class="list-inline payment-section">
+                            <li class="text-strong">METODE PENGIRIMAN</li>
+                            <li><img class="img-responsive" src="assets/images/JnT.png"></li>
+                            <li><img class="img-responsive" src="assets/images/Pos.png"></li>
+                            <li><img class="img-responsive" src="assets/images/Ninja.png"></li>
+                            <li><img class="img-responsive" src="assets/images/Tiki.png"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container hidden-lg hidden-md">
+                <div class="row">
+                    <div class="col-xs-12 text-strong">
+                        METODE PEMBAYARAN
+                    </div>
+                    <div class="col-xs-12 mt-10">
+                        <ul class="list-inline">
+                            <li><img class="img-responsive" src="assets/images/Klikpay.png"></li>
+                            <li><img class="img-responsive" src="assets/images/Visa.png"></li>
+                            <li><img class="img-responsive" src="assets/images/Alfamart.png"></li>
+                            <li><img class="img-responsive" src="assets/images/Indomaret.png"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-20">
+                    <div class="col-xs-12 text-strong">
+                        METODE PENGIRIMAN
+                    </div>
+                    <div class="col-xs-12 mt-10">
+                        <ul class="list-inline">
+                            <li><img class="img-responsive" src="assets/images/JnT.png"></li>
+                            <li><img class="img-responsive" src="assets/images/Pos.png"></li>
+                            <li><img class="img-responsive" src="assets/images/Ninja.png"></li>
+                            <li><img class="img-responsive" src="assets/images/Tiki.png"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 pt-20 pb-20 text-sm text-center">
+                    Copyright &copy; 2018 9pintu
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<!--Modal Register-->
+<div class="modal fade" id="modalRegister" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content no-radius">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Selamat Datang di 9pintu</h4>
+            </div>
+            <div class="modal-body pt-20 pb-30">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div class="col-xs-12 mb-10">
+                            <button class="btn btn-block text-center btn-login fb"><i class="fab fa-facebook-square fa-2x"></i> Daftar dengan Facebook</button>
+                        </div>
+                        <div class="col-xs-12">
+                            <button class="btn btn-block text-center btn-login gplus"><i class="fab fa-google-plus-g fa-2x"></i> Daftar dengan Google +</button>
+                        </div>
+                        <div class="col-xs-12 mt-30 mb-15">
+                            <div class="strip-line">
+                                <p class="text-center"><span>atau</span></p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="form-register">
+                                <fieldset>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Nomor Telepon">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <input type="password" class="form-control" placeholder="Password" aria-describedby="basic-addon2">
+                                            <span class="input-group-addon" id="basic-addon2"><i class="far fa-eye"></i></span>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary btn-block has-radius">DAFTAR</button>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                Sudah memiliki akun? <a href="" class="text-strong default-link" data-toggle="modal" data-target="#modalLogin" data-dismiss="modal">Masuk sekarang</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--Modal Login-->
+<div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content no-radius">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Login</h4>
+            </div>
+            <div class="modal-body pt-20 pb-30">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div class="col-xs-12 mb-10">
+                            <button class="btn btn-block text-center btn-login fb"><i class="fab fa-facebook-square fa-2x"></i> Masuk dengan Facebook</button>
+                        </div>
+                        <div class="col-xs-12">
+                            <button class="btn btn-block text-center btn-login gplus"><i class="fab fa-google-plus-g fa-2x"></i> Masuk dengan Google +</button>
+                        </div>
+                        <div class="col-xs-12 mt-30 mb-15">
+                            <div class="strip-line">
+                                <p class="text-center"><span>atau</span></p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="form-login">
+                                <fieldset>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <input type="password" class="form-control" placeholder="Password" aria-describedby="basic-addon2">
+                                            <span class="input-group-addon" id="basic-addon2"><i class="far fa-eye"></i></span>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary btn-block has-radius">MASUK</button>
+                                </fieldset>
+                            </div>
+                            <div class="col-xs-12 text-center mt-20 mb-30">
+                                <a href="" class="default-link" data-toggle="modal" data-target="#modalForgotPassword" data-dismiss="modal">Lupa Password?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                Belum memiliki akun? <a href="" class="text-strong default-link" data-toggle="modal" data-target="#modalRegister" data-dismiss="modal">Daftar sekarang</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Modal Forgot Password-->
+<div class="modal fade" id="modalForgotPassword" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content no-radius">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Lupa Password Anda?</h4>
+            </div>
+            <div class="modal-body pt-20 pb-30">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div class="col-xs-12 text-center">
+                            <p class="text-strong">Lupa password? jangan khawatir</p>
+                            <p>Masukkan email yang Anda gunakan saat pendaftaran akun 9pintu. Konfigurasi password baru akan dikirimkan ke email Anda tersebut.</p>
+                        </div>
+                        <div class="col-xs-12 mt-30 mb-30">
+                            <div class="form-login">
+                                <fieldset>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                    <button class="btn btn-primary btn-block has-radius">KIRIM</button>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                Sudah tahu password Anda? <a href="" class="text-strong default-link" data-toggle="modal" data-target="#modalLogin" data-dismiss="modal">Masuk sekarang</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="assets/js/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/pintu.js"></script>
+<script src="assets/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js"></script>
+<script src="assets/js/lory.min.js"></script>
+</body>
+</html>
