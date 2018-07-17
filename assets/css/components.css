@@ -776,3 +776,7 @@ nav.paging ul li.active a{
 .border-divider{
     border-bottom: solid 10px #dddddd;
 }
+
+.fixed{
+    position: fixed;
+}

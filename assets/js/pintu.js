@@ -2,12 +2,12 @@
 
 function openNav() {
     document.getElementById("pintuSideNav").style.width = "85%";
-    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    $("#togleNav").addClass("overlay-sidenav");
 }
 
 function closeNav() {
     document.getElementById("pintuSideNav").style.width = "0";
-    document.body.style.backgroundColor = "white";
+    $("#togleNav").removeClass("overlay-sidenav");
 }
 
 

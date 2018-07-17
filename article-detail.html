@@ -30,21 +30,33 @@
 </head>
 <body>
 <!--Side Navigation-->
-<div id="pintuSideNav" class="sidenav">
-    <div class="closebtn">
-        <a href="javascript:void(0)" onclick="closeNav()"><i class="far fa-times-circle"></i></a>
-    </div>
-    <div class="head-nav">
-        <a href="" data-toggle="modal" data-target="#modalLogin" data-dismiss="modal">Masuk/Daftar</a>
-    </div>
-    <div class="menu-item">
-        <a href="index.html" class="item">Beranda</a>
-        <a href="#" class="item">Media</a>
-        <a href="#" class="item">Berbagi Rezeki</a>
-        <a href="#" class="item">Travel Syariah</a>
-        <a href="#" class="item">Belanja</a>
-        <a href="#" class="item">Official Mitra</a>
-        <a href="#" class="item">Silaturahmi</a>
+<div id="togleNav" class="">
+    <div id="pintuSideNav" class="sidenav">
+        <div class="closebtn">
+            <a href="javascript:void(0)" onclick="closeNav()"><i class="far fa-times-circle"></i></a>
+        </div>
+        <div class="head-nav">
+            <a data-toggle="collapse" href="#accountprofile" aria-expanded="false" aria-controls="accountprofile">
+                Hi, John Doe <i class="fas fa-caret-down"></i>
+            </a>
+            <div class="collapse m-account" id="accountprofile">
+                <ul class="list-group pl-10 mb-0 mt-10">
+                    <li class="list-group-item"><a href=""><i class="fas fa-cog absolute"></i> <span>Profile</span></a> </li>
+                    <li class="list-group-item"><a href=""><i class="far fa-newspaper absolute"></i> <span>Media</span></a> </li>
+                    <li class="list-group-item"><a href=""><i class="fas fa-store-alt absolute"></i> <span>E-Commerce</span></a> </li>
+                    <li class="list-group-item"><a href=""><i class="fas fa-sign-out-alt absolute"></i> <span>Keluar</span></a> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu-item">
+            <a href="index.html" class="item">Beranda</a>
+            <a href="media.html" class="item">Media</a>
+            <a href="#" class="item">Berbagi Rezeki</a>
+            <a href="#" class="item">Travel Syariah</a>
+            <a href="#" class="item">Belanja</a>
+            <a href="official-mitra.html" class="item">Official Mitra</a>
+            <a href="#" class="item">Silaturahmi</a>
+        </div>
     </div>
 </div>
 <!--End Side Navigation-->

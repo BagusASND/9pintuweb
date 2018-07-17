@@ -641,6 +641,9 @@ footer .payment-section li:first-child{
     footer .payment-ic{
         width: auto;
     }
+    footer .payment-method-section img{
+        width: 40px;
+    }
 
     .middle-section.media{
         margin-top: 73px;
