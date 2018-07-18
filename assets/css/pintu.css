@@ -450,8 +450,41 @@ a.text-white:hover{
     width: 90%;
 }
 
+.admin-menu li{
+    border-radius: 0;
+    border: none;
+    font-weight: bold;
+    color: #666666;
+    padding: 18px 15px;
+}
+.admin-menu li a.default-carret.collapsed i.fa-caret-right{
+    transform: rotate(90deg);
+    transition-duration: .3s;
+}
+.admin-menu li a i.absolute{
+    position: absolute;
+    top: 12px;
+}
+.admin-menu li a.default-carret i.fa-caret-right{
+    position: absolute;
+    right: 0;
+    top: 21px;
+}
+.admin-menu li a span{
+    padding-left: 45px;
+}
+.admin-menu li ul li{
+    font-weight: normal;
+}
+
 .m-account ul li{
     background-color: transparent;
+}
+
+.bg-admin-mitra{
+    background-color: #F8F8F8;
+    margin-top: -20px;
+    padding: 20px 0;
 }
 
 .light-blue{color: #4C8CC9}

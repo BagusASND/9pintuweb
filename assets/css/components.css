@@ -635,8 +635,14 @@ nav.paging ul li.active a{
 .has-radius {
     border-radius: 4px;
 }
+.no-bg-shadow{
+    box-shadow: none;
+}
 .has-shadow{
     box-shadow: 0 0 3px #c7c7c7;
+}
+.no-border{
+    border: none;
 }
 
 /*Button*/
@@ -703,7 +709,7 @@ nav.paging ul li.active a{
     background-color: #137774;
 }
 .bg-white{
-    background-color: #ffffff;
+    background-color: #ffffff!important;
 }
 .bg-muted{
     background-color: #FAFAFA;
