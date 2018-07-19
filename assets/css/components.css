@@ -75,6 +75,9 @@ Tools*/
 .text-white {
     color: #ffffff;
 }
+.text-success{
+    color: #81BF66;
+}
 
 .text-sm {
     font-size: 12px;
@@ -629,6 +632,10 @@ nav.paging ul li.active a{
     color: #ffffff;
 }
 
+.form-horizontal .form-group label.label-form{
+    padding-top: 7px;
+}
+
 .no-radius{
     border-radius: 0;
 }
@@ -660,6 +667,14 @@ nav.paging ul li.active a{
 .btn-primary, .btn-primary:hover {
     background-color: #137774;
     border-color: #137774;
+}
+.btn-primary-outline{
+    background-color: transparent;
+    border: solid 2px #137774;
+    color: #137774;
+}
+.btn-primary-outline:hover, .btn-primary-outline:focus{
+    color: #137774;
 }
 
 .btn-link {

@@ -475,6 +475,7 @@ a.text-white:hover{
 }
 .admin-menu li ul li{
     font-weight: normal;
+    padding: 12px 15px;
 }
 
 .m-account ul li{
