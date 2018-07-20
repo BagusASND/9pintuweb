@@ -163,30 +163,68 @@
         <div class="bg-admin-mitra">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-3">
-                        <div class="panel panel-default no-radius no-bg-shadow no-border bg-white">
-                            <div class="panel-body">
-                                <ul class="list-group admin-menu">
-                                    <li class="list-group-item"><a href="admin-mitra.html"><i class="fas fa-home absolute fa-2x"></i> <span>Home</span></a> </li>
-                                    <li class="list-group-item">
-                                        <a data-toggle="collapse" href="#profileDropdown" aria-expanded="false" aria-controls="profileDropdown" class="default-carret"><i class="fas fa-cog absolute fa-2x"></i> <span>Profile</span> <i class="fas fa-caret-right"></i></a>
-                                        <div class="collapse" id="profileDropdown">
-                                            <ul class="list-group pl-30 pt-10 mb-0">
-                                                <li class="list-group-item"><a href="admin-mitra-profile.html">Ubah Profile</a></li>
-                                                <li class="list-group-item"><a href="admin-mitra-password.html">Ubah Password</a></li>
-                                                <li class="list-group-item"><a href="admin-mitra-alamat.html">Alamat</a></li>
-                                                <li class="list-group-item active"><a href="#">Logo Mitra</a></li>
-                                                <li class="list-group-item"><a href="admin-mitra-banner.html">Banner Mitra</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item"><a href=""><i class="far fa-newspaper absolute fa-2x"></i> <span>Media</span></a> </li>
-                                    <li class="list-group-item"><a href=""><i class="fas fa-store-alt absolute fa-2x"></i> <span>E-Commerce</span></a> </li>
-                                </ul>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <div class="panel-group admin-menu bg-white" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <div class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="admin-mitra.html" aria-expanded="true" aria-controls="collapseOne">
+                                            <i class="fas fa-home absolute fa-2x"></i> <span>Home</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <div class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <i class="fas fa-cog absolute fa-2x"></i> <span>Profile</span> <i class="fas fa-caret-down"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                        <ul class="list-group pl-30 pt-10 mb-0">
+                                            <li class="list-group-item"><a href="admin-mitra-profile.html">Ubah Profile</a></li>
+                                            <li class="list-group-item"><a href="admin-mitra-password.html">Ubah Password</a></li>
+                                            <li class="list-group-item"><a href="admin-mitra-alamat.html">Alamat</a></li>
+                                            <li class="list-group-item active"><a href="#">Logo Mitra</a></li>
+                                            <li class="list-group-item"><a href="admin-mitra-banner.html">Banner Mitra</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                    <div class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <i class="far fa-newspaper absolute fa-2x"></i> <span>Media</span></a>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                    <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                    <div class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                            <i class="fas fa-store-alt absolute fa-2x"></i> <span>E-Commerce</span></a>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                    <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-9 col-md-9">
+                    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                         <div class="panel panel-default no-radius no-bg-shadow no-border bg-white">
                             <div class="panel-heading pt-15 pb-15 bg-white">
                                 <h3 class="no-margin">
@@ -195,13 +233,13 @@
                             </div>
                             <div class="panel-body">
                                 <div class="row">
-                                    <div class="col-xs-3">
+                                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                                         <div class="card text-center p-15">
                                             <img src="img/dummy-image-square.jpg" class="img-responsive img-circle">
                                             <label class="btn btn-block btn-primary-outline mt-15 mb-15">
                                                 Pilih Foto <input type="file" style="display: none;">
                                             </label>
-                                            <p class="text-muted text-sm no-margin">
+                                            <p class="text-muted text-xs no-margin">
                                                 Besar file: 10 Megabytes<br>
                                                 Ekstensi file: .JPG .JPEG .PNG
                                             </p>

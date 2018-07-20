@@ -454,19 +454,40 @@ a.text-white:hover{
     border: none;
     box-shadow: none;
 }
+.admin-menu .panel+.panel{
+    margin: 0;
+    position: relative;
+}
 .admin-menu .panel-default .panel-heading{
     background-color: transparent;
     color: #666666;
     border: none;
+    padding: 18px 15px;
 }
 .admin-menu .panel-default .panel-heading .panel-title{
     font-size: 14px;
-    position: relative;
     font-weight: bold;
 }
 .admin-menu .panel-default .panel-heading .panel-title a i.absolute{
     position: absolute;
-    top: 0;
+    top: 15px;
+}
+.admin-menu .panel-default .panel-heading .panel-title a span{
+    margin-left: 45px;
+}
+.admin-menu .panel-default .panel-heading .panel-title a i.fa-caret-down{
+    position: absolute;
+    right: 15px;
+    top: 21px;
+    transition-duration: .5s;
+}
+.admin-menu .panel-default .panel-heading .panel-title a.collapsed i.fa-caret-down{
+    transform:  rotate(-90deg);
+    transition-duration: .5s;
+}
+.admin-menu .panel-heading+.panel-collapse>.panel-body{
+    border: none;
+    padding-top: 0;
 }
 
 
@@ -475,27 +496,6 @@ a.text-white:hover{
     border: none;
     font-weight: bold;
     color: #666666;
-    padding: 18px 15px;
-}
-.admin-menu li a.default-carret.collapsed i.fa-caret-right{
-    transform: rotate(90deg);
-    transition-duration: .3s;
-}
-.admin-menu li a i.absolute{
-    position: absolute;
-    top: 12px;
-}
-.admin-menu li a.default-carret i.fa-caret-right{
-    position: absolute;
-    right: 0;
-    top: 21px;
-}
-.admin-menu li a span{
-    padding-left: 45px;
-}
-.admin-menu li ul li{
-    font-weight: normal;
-    padding: 12px 15px;
 }
 
 .m-account ul li{
