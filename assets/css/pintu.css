@@ -450,6 +450,26 @@ a.text-white:hover{
     width: 90%;
 }
 
+.admin-menu .panel{
+    border: none;
+    box-shadow: none;
+}
+.admin-menu .panel-default .panel-heading{
+    background-color: transparent;
+    color: #666666;
+    border: none;
+}
+.admin-menu .panel-default .panel-heading .panel-title{
+    font-size: 14px;
+    position: relative;
+    font-weight: bold;
+}
+.admin-menu .panel-default .panel-heading .panel-title a i.absolute{
+    position: absolute;
+    top: 0;
+}
+
+
 .admin-menu li{
     border-radius: 0;
     border: none;
@@ -491,6 +511,7 @@ a.text-white:hover{
 .light-blue{color: #4C8CC9}
 .light-green{color: #6CC380}
 .light-red{color: #E26762}
+
 
 /*Footer*/
 
